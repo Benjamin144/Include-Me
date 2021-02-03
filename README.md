@@ -4,7 +4,7 @@
 
 **This is my 3rd Milestone project covering: Data-Centric Development - Code Institute**
 
-# Welcome to R.O.I.D aka Return on Investment Tool for the 'MMORPG' gaming Commnity
+# Welcome to R.O.I.D for the 'MMORPG' gaming Commnity
 
 ## Contents
 - [Introduction](#joe-roberts-super-arenas---second-milestone-project)
@@ -30,9 +30,17 @@
 
 
 ## Introduction - Intro
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-One or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch.
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et d
+
+Hello and welcome to R.O.I.D...
+R.o.i.d in certain massivley multiplayer online games (MMO's) also stands for Asteroid, but when abbreviated means 'return on investment developer' and this app is inspired by the space gaming community.
+...A mining foreman or engineer, would board a specialised spacecraft and warp out into hostile regions of space to harvest a payload of important raw matierials. 
+They would risk their conciousness with a very real possibility of being blown up inside their vessel via person verses person combat scenario (PvP). 
+Losing everything = losing collateral & the time spent ammassing a fortune, could disappear very easily. 
+What if I could build an app that helps return a players investment in time and money by purposely planning a routine based around my play style.
+This could be done by building a sandbox item that can be plugged into any MMORGG sandbox. 
+So r.o.i.d essentially is a task management tool that helps gamers organise their gaming style of play. 
+The player will take full control by managing their activities with ease in any gamming environment.
+R.o.i.D..
 
 ## Conclusion
 
@@ -53,7 +61,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus felis leo, eges
 
 ## Demo
 
-<h2 align="center"><img src="https://github.com/Benjamin144/Europes-Favorite-Arenas/blob/master/tab-land.PNG"></h2>
+<h2 align="center"><img src="https://github.com/Benjamin144/r.o.i.d/blob/master/tab-land.PNG"></h2>
 
 ## User Experience (UX) - Intro
  
