@@ -6,26 +6,6 @@
 
 # Welcome to R.O.I.D aka Return on Investment Tool for the 'Eve Online' gaming Commnity
 
-One or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch.
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-<h1 align="center">Joseph Roberts Super Arenas Website</h1>
-
-**2nd Milestone Project: Interactive Frontend Development - Code Institute**
-
-<h2 align="center"><img src="https://github.com/Benjamin144/Europes-Favorite-Arenas/blob/master/Multi%20Device%20Demo1.png"></h2>
-
 ## Contents
 - [Introduction](#joe-roberts-super-arenas---second-milestone-project)
 - [Demo](#demo)
@@ -49,29 +29,27 @@ If this section grows too long, you may want to split it off into a separate fil
     * [Acknowledgments](#acknowledgements)
 
 
-## Introduction
-
-The main thrust of the site is to try and create an opportunity for the user to learn about sporting venues and surrounding areas across the world. They then have an option to enter a competitions for 
-a chance to win a bespoke holiday tour. Super Arenas is a fictional based charitable organisation that raises awareness of iconic sporting venues across the globe and promotes exclusive tours 
-to far flung destinations, in return general users of the site can become members and pay a monthly subscription to get incentives throughout the year. The revenue is put back 
-into grassroots sports to help further develop talent and fitness in adults and primarily children.
+## Introduction - Intro
+In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+One or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch.
+At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et d
 
 ## Conclusion
 
-Travel Companion Website/App
-Card or Carousel style display.
+maiores alias consequatur aut
+perferendis doloribus asperiores repellat.
 
 ## The learning outcomes
-To use JavaScript and jQuery, both to manipulate the DOM and to make Ajax calls to the Google Maps, GitHub, and email service APIs.
+To use JavaScript and jQuery, both to manipulate the DOM and to.......cusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi
 
 ## Future Development - Features
-Tech Stack: C# - ASP.net Core MVC application
+Tech Stack: MySQL - ASP.net Core MVC application
 Make the site secure - by using Log in - Admin/User (security|), I.e. (Later using this method for Authorization and Authentication)
 
 ## Current Issues
 
-#emailJS implementation fails - unable to retrieve emails from subscriber page, - script tags incorrectly coded. **resolved**
-#was unable to resolve a loading issue with the google map - correct function used **resolved**
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus felis leo, egestas sit amet libero vel, porttitor varius ex.  **resolved**
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus felis leo, egestas sit amet libero vel, porttitor varius ex.  **resolved**
 
 ## Demo
 
@@ -88,56 +66,39 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 ### Strategy
 To design a functional styled website that acts as a basis of information but the site guides the user through a series of navigational links throughout the site
-in a logical manner, whilst stopping at various points to open various content features. The purpose of which is to highlight Sports Stadiums across the world to make the user aware 
-of existence of the structure and the enviromnment surrounding it using the Google API's and the enhanced Google Maps platform. The stadium structures will be updated periodically as new competitons arise.
+in a logical manner, whilst stopping at various points to open various content features. The purpose of which Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus felis leo, egestas sit amet libero vel, porttitor varius ex. 
 This would keep the possibility of users coming back to use the site because of interest and intrigue.
 
 ### Scope
-The pages allow the intended user to access visual information about various Sports Arenas around the world in a manual fashion.
-The functionality in this project will primarily be a self dragging Carousel or a card styled information window as a display mechanism.
-I then opted for a customized carousel that gives slick access to imagery and implementation of JS language.
-As there was an option to use card style displays, I realised this would take up lot of room on the website and may overwhelm the user.
-Future development would be to link each image directly to Google Maps interface and also implement Geolocations, instead of manually clicking on map markers, then zooming into 
-the locality.(I was unable to implement this because of time constraints)
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus felis leo, egestas sit amet libero vel, porttitor varius ex. 
 
 
 -   ### User stories
 
     -   #### First Time Visitor Goals
 
-        1. As an Partner               ||  I want to understand the global purpose of the site and learn more about the site content in terms of understanding local community projects and developments.
-        2. As a Service Provider       ||  I want to be able navigate throughout the site to work in conjunction with organisers & members exclusively. 
-        3. As a Subscriber             ||  I am a sports enthusiast or have world interests & curious about large events and themes wanting to explore more. 
+        1. As a Developer              ||  I want to understand the global purpose of the site and learn more about the site content in terms of understanding local community projects and developments.
+        2. As a Service Provider       ||  Cras vitae purus metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam s
+        3. As a Subscriber             ||  Cras vitae purus metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam s
 
     -   #### Returning Visitor Goals
 
-        1. As an Partner               ||  I want to look for testimonials to understand what our users think of us in the media posts.
-        2. As a Service Provider       ||  I want to find the best way to get in contact with the organisation with any questions I may have.
-        3. As a Subscriber             ||  I want to locate their organizations social media links to see their followings on social media to determine how trusted and known they are.
+        1. As an Developer             ||  Cras vitae purus metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam s
+        2. As a Service Provider       ||  Cras vitae purus metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam s
+        3. As a Subscriber             ||  Cras vitae purus metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam s
 
     -   #### Frequent User Goals
-        1. As a Partners               ||  I want to check to see if the site is evolving and if they shoe interest in how to inprove their global out reach
-        2. As a Service Provider       ||  I want to check to see if there are any service/development based sites linked to the main site
-        3. As a Subscriber             ||  I would like inspiration and an openess to different ways of looking at the world events and would engage on that basis and become a member.
-
+        1. As a Partners               ||  Cras vitae purus metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam s
+        2. As a Service Provider       ||  Cras vitae purus metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam s
+        3. As a Subscriber             ||  Cras vitae purus metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam s
 
 ### Structure
-I want to make the website scrolls down the page site but also navigate onto another page, i.e (about me). The links would help the user understand the nature of the website, which is to promote an organisation that is willing
-to contribute to community projects, by raising funds to help develop sports of all genres at grassroots level. In this case the 'About' navlink takes the user to a seperate page which gives the user an opportunity
-to subscribe and return to the home page. 'Learn more' button is only linked t the home page at present, but as the project develops the link will be updated to other site areas such as 'Articles', 'Newsletters' Blog posts' and 'News feeds'.
-Yet on the home page the user can click on the 'Explore' nav-item, to immediately scroll down the page to a presentation of various Arenas across the World. The user may also use a mouse
-to either drag the slider left and right to loop throught the images. There is also an option to use the buttons to work the slider. I expected that this form of presentation would be the main feature that
-the user would be working from on this page, I therefore added some additional features such as 'dots' to help the user understand what position they are in on the slider, and 'i' information tool tip popup. 
-and some text to further solidify operation. Furthermore these features were implemented because of a design flaw of the carousel.I was unable to set the Carousel to auto play, this  mean't that if the user click the carousel 
-in the white space between each image, by accident the href attributes of the carousel would link to maps.html. However for purposes of this site, the Owl Carousel in essence is a 'Touch' enabled jQuery plugin 
-that lets developers create responsive carousel sliders.
-
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus felis leo, egestas sit amet libero vel, porttitor varius ex. Duis in augue eu nulla rutrum interdum. Fusce quis erat sed erat porttitor malesuada at eget mi. Donec eget faucibus tortor, non rutrum sapien. Integer ut lacus lorem. Suspendisse blandit lacinia molestie. In hac habitasse platea dictumst. Nulla tristique auctor quam, a posuere ligula. Aliquam erat volutpat. Donec ac enim aliquet, aliquam velit nec, ultrices sapien. Cras dictum commodo odio, a ullamcorper mauris vestibulum sed. Fusce a lacus eu lorem sollicitudin venenatis id ut elit. Aenean pretium magna a est volutpat, id egestas velit fermentum.
 ## issues, that needed further development 
-- unable to implement a workable 'autoplay' solution as an option, so the carousel remained manually operated. 
-- pressing between images whilst trying to swip the display left or right could inadvertantly navigate the user to map.html
-- the solution to this would have been to have the white space unclickable.
-- Additional site structure would have storylines/storyboards and experiences of travelling adventures to venues on tour, Newsletters for forthcoming promotional events. Blog posts for trending and popular posts concerning travel, 
-  hospitatilty experience, critic's.
+- Integer sed diam felis. Nullam vitae malesuada dolor.  
+- Integer sed diam felis. Nullam vitae malesuada dolor. 
+- Integer sed diam felis. Nullam vitae malesuada dolor. 
+- Integer sed diam felis. Nullam vitae malesuada dolor.      
 
 
 ### Skeleton
@@ -150,27 +111,40 @@ that lets developers create responsive carousel sliders.
         -   The Livvic font=family for nav links across the site & Carter_One commonly used across the site, with Josefin secondary font, which is light non invasive, 
             
     -   #### Imagery
-        -   The imagery for this site is very minimal and reflects transparency and not flashy. The images of the stadium convert well on all screen sizes
+        -   The imagery for this site is very minimal and reflects transparency and not flashy. The images of the urpis. Morbi molestie rutrum tincidunt. Ut nulla dolor, suscipit at augue eget, sodales posuere dui. convert well on all screen sizes
  
 ### Wireframes:
-[Mobile View](https://github.com/Benjamin144/Europes-Favorite-Arenas/blob/master/Mobile%20View.png)
-[Tablet View](https://github.com/Benjamin144/Europes-Favorite-Arenas/blob/master/Tablet%20View.png)
-[DeskTop View](https://github.com/Benjamin144/Europes-Favorite-Arenas/blob/master/Desktop%20View.png)
+[Mobile View](https://github.com/Benjamin144/r.o.i.d/blob/master/Mobile%20View.png)
+[Tablet View](https://github.com/Benjamin144/r.o.i.d/blob/master/Tablet%20View.png)
+[DeskTop View](https://github.com/Benjamin144/r.o.i.d/blob/master/Desktop%20View.png)
 
 ### Surface
 
-My site has a simple, unassuming, look and feel. And the functionality is smooth and engaging. I have used 'green' background images to celebrate sports development at grassroots level
-but did not want to overwhelm the user with images totally geared to sport because I wanted to attract a neutral audience
+My site has a simple, unassuming, look and feel. And the functionality is smooth and engaging. Praesent interdum viverra augue eu aliquam
 <p align="right">
-  <a href="joseph-roberts-super-arenas---second-milestone-project">Back to Top :arrow_heading_up:</a> 
+  <a href="joseph-roberts-super-r.o.i.d-app---third-milestone-project">Back to Top :arrow_heading_up:</a> 
 </p>
 
 ## Features Intro
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-Google Driven API - Marker locators
-Email JS driven Subscription Service
-Tec Stack: [Bootstrap] [HTML], [CSS], [Javascript], [Jquery].
+
+1. Contact form:
+    1. Go to the "Contact Us" page
+    2. Try to submit the empty form and verify that an error message about the required fields appears
+    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    4. Try to submit the form with all inputs valid and verify that a success message appears.
+
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+
+If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
+
+## Features
+MongoDB Driven - non relational database
+???Email JS driven Subscription Service
+Tec Stack: [Bootstrap] [HTML], [CSS], [Javascript], [Jquery],[Python] [Jinja], [Flask], [Mongo], [Heroku], [Matierialize] [Flash], [Werzeug], [Javascript].[Dot-notion]
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
 - ...
@@ -306,10 +280,10 @@ We continually tweak and adjust this template to help give you the best experien
 
 ## lighthouse
 
--   [Home pages](https://github.com/Benjamin144/Europes-Favorite-Arenas/blob/master/Homepage.PNG)
--   [About Pages](https://github.com/Benjamin144/Europes-Favorite-Arenas/blob/master/About.PNG)
--   [Map Pages](https://github.com/Benjamin144/Europes-Favorite-Arenas/blob/master/Map.PNG)
--   [Subsribe Pages](https://github.com/Benjamin144/Europes-Favorite-Arenas/blob/master/subscribe.PNG)
+-   [Home pages](https://github.com/Benjamin144/r.o.i.d/blob/master/Homepage.PNG)
+-   [About Pages](https://github.com/Benjamin144/r.o.i.d/blob/master/About.PNG)
+-   [Map Pages](https://github.com/Benjamin144/r.o.i.d/blob/master/Map.PNG)
+-   [Subsribe Pages](https://github.com/Benjamin144/r.o.i.d/blob/master/subscribe.PNG)
 
 
 
@@ -319,22 +293,10 @@ We continually tweak and adjust this template to help give you the best experien
 #Check rating with lighthouse (screenshot results and use in readMe)
 #Check responsiveness on all devices
 #Check responsiveness on all web browsers
-#Clear bugs - reference, the Slack community, tutors & online support, i.e console log, "Uncaught exceptions", "emailJS - tutorial"
+#Clear bugs - reference, the Slack community, tutors & online support, i.e console log.
 #Run the code through (W3C) validators
 
 #Testing Errors - Struggling to get past these...type of error sample below:
-
-####jquery-3.5.1.min.js:2 Uncaught TypeError: el.owlCarousel is not a function
-    at initialize_owl (main.js:50)
-    at HTMLDocument.<anonymous> (main.js:38)
-    at e (jquery-3.5.1.min.js:2)
-    at t (jquery-3.5.1.min.js:2)
-
-####jquery-3.5.1.min.js:2 Uncaught TypeError: el.owlCarousel is not a function
-    at initialize_owl (main.js:50)
-    at HTMLDocument.<anonymous> (main.js:77)
-    at e (jquery-3.5.1.min.js:2)
-    at t (jquery-3.5.1.min.js:2)
 
     **resolved by changing the order of content in the main.js file - **resolved**
     **resolved uncaught not defined type error in console for modal by moving JS to index.html file under modal because te complier was not reading the request from the js file **resolved** 
@@ -346,20 +308,17 @@ We continually tweak and adjust this template to help give you the best experien
 
     1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the Website.
 
-        1. Upon entering the site, users are met with a clean light gray navigation bar to go to explore a choice of three other pages. Beneath the nav bar the user will see a restful full width background image of grass turf,
-            which harks back to grassroots sports organisations. 
-        2. Once there the user will scroll or use the 'explore' short cut to access a set of instructions regarding the carousel and beneath that a an insight to the organisation, by pressing a modal button.
-        3. The user is free to scroll back up or back down the page to the footer using short cuts for convenience. 
+        1. Aliquam nisi felis, posuere sed dui et, facilisis facilisis dolor. In hac habitasse platea dictumst. Donec pellentesque massa at tristique aliquet. Vestibulum ultricies nunc at
+        2. Aliquam nisi felis, posuere sed dui et, facilisis facilisis dolor. In hac habitasse platea dictumst. Donec pellentesque massa at tristique aliquet. Vestibulum ultricies nunc at
+        3. Aliquam nisi felis, posuere sed dui et, facilisis facilisis dolor. In hac habitasse platea dictumst. Donec pellentesque massa at tristique aliquet. Vestibulum ultricies nunc at
     
     2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
-        1. The site has been designed to aid the user in making a varied choice in how they wish to use the site, some may want to find out about resources & information about the charity,
-           others my be interested by the sites functionality and the use of buttons and clickable links throughout site.
-           Each nav bar item is featured to keep the user engaged as much as possible with delayed hover/time and change color effect.
-        2. In keeping with the home page style of presentation, I have kept the style very basic and honest with easy access to other pages across the website. 
-        3. The use of the carousel is designed to access the images in a nonchalent manner.
-        4. The user will be spending most of their time on the map page, once they have browsed through the different venues, they can get more detail from googlemaps interaction.
-        5. On the final Contact Page the user can easily scroll down to a section where they have an option to register with auto reply
+        1.  Aliquam nisi felis, posuere sed dui et, facilisis facilisis dolor. In hac habitasse platea dictumst. Donec pellentesque massa at tristique aliquet. Vestibulum ultricies nunc at
+        2.  Aliquam nisi felis, posuere sed dui et, facilisis facilisis dolor. In hac habitasse platea dictumst. Donec pellentesque massa at tristique aliquet. Vestibulum ultricies nunc at
+        3.  Aliquam nisi felis, posuere sed dui et, facilisis facilisis dolor. In hac habitasse platea dictumst. Donec pellentesque massa at tristique aliquet. Vestibulum ultricies nunc at
+        4.  Aliquam nisi felis, posuere sed dui et, facilisis facilisis dolor. In hac habitasse platea dictumst. Donec pellentesque massa at tristique aliquet. Vestibulum ultricies nunc at
+        5.  Aliquam nisi felis, posuere sed dui et, facilisis facilisis dolor. In hac habitasse platea dictumst. Donec pellentesque massa at tristique aliquet. Vestibulum ultricies nunc at
         
 
     3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
@@ -369,7 +328,7 @@ We continually tweak and adjust this template to help give you the best experien
 
     1. As a Returning Visitor, I want to find out more about  the organisations brand and social awareness
 
-        1. Would like to see alot of membership engagement and available content in the form of popular posts, blog posts, various articles, and newsfeeds
+        1. Would like to see alot of membership engagement and available content in the for Aliquam nisi felis, posuere sed dui et, facilisis facilisis dolor. In hac habitasse platea dictumst. Donec pellentesque massa at tristique aliquet. Vestibulum ultricies nunc atm of popular posts, blog posts, various articles, and newsfeeds
       
 
     2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
@@ -382,7 +341,8 @@ We continually tweak and adjust this template to help give you the best experien
 
     3. As a Returning Visitor, I want to find the links to various social media groups so that I can join and interact with others in the community.
 
-        1. The Facebook Page can be found at the right hand side of index,map and subscribe pages and will open a new tab for the user and more information can be accessable on the Facebook page.
+        1. Aliquam nisi felis, posuere sed dui et, facilisis facilisis dolor. In hac habitasse platea dictumst. Donec pellentesque massa at tristique aliquet. Vestibulum ultricies nunc at
+        2. Aliquam nisi felis, posuere sed dui et, facilisis facilisis dolor. In hac habitasse platea dictumst. Donec pellentesque massa at tristique aliquet. Vestibulum ultricies nunc at
         
 -   #### Frequent User Goals
 
@@ -408,7 +368,7 @@ We continually tweak and adjust this template to help give you the best experien
 ### Known Bugs
 
 -  When switching from mobile view to desktop or tablet, the nav bar function remains extended if user forgets to toggle the menus
-    bar to close it in mobile screen sizes.
+    bar to close it in mobile screen sizes.????????????????????????????????????????????????????????
 
 ## Deployment - Intro
 
@@ -423,7 +383,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ## Deployment
 
-The site is deployed published at https://benjamin144.github.io/Europes-Favorite-Arenas/ from my GitHub Pages
+The site is deployed published at https://benjamin144.github.io/r.o.i.d/ from my GitHub Pages
 
 ### GitHub Pages
 
@@ -487,26 +447,22 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   [Daily Tuition](https://www.youtube.com/watch?v=CrSC1ZA9j0M) : Guide to creating jQuery driven interactive nav bar menu items
 
--   [TraversyMedia] - for his tips on implementing Google API - (https://www.youtube.com/embed/Zxf1mnP5zcw)
+
 
 ### Content - Intro
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Content
 
--   All content was reworked by Joseph Roberts, and I would like to attribute full credit to software developers that tought me certain techniques included in the project and
-    originally introduced at The Code Institute  $toggleCollapse = $('.toggle-collapse');[DailyTuition]&[CodeInstitute]
+-   Also credits to the Stack Overflow community for snippets 
 
--   Also credits to the Stack Overflow community for snippets like 'function destroy_owl(el) {..'helped achieved the objective;[StackOverflow]
-
--   [TraversyMedia] - for his tips on implementing Google API - (https://www.youtube.com/embed/Zxf1mnP5zcw)
-
+-   
 
 ### Media - Intro
 - The photos used in this site were obtained from ...
 ### Media
 
--   (https://stock.adobe.com/uk) resource images. https://stock.adobe.com/uk/images/artificial-grass-background/250085110 - Landing page image
+-   (https://stock.adobe.com/uk) resource images. https://stock.adobe.com/uk/images/.............. - Landing page image
 
 ### Acknowledgements - Intro
 
@@ -514,7 +470,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Acknowledgements
 
--   My Mentor Gerard McBride for continuous helpful feedback.
+-   My Mentor Dick Vlaanderen for continuous helpful feedback.
 
 -   Tutor support at Code Institute for their support.
 
