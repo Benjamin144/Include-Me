@@ -4,7 +4,7 @@
 
 **This is my 3rd Milestone project covering: Data-Centric Development - Code Institute**
 
-# Welcome to R.O.I.D aka Return on Investment Tool for the 'Eve Online' gaming Commnity
+# Welcome to R.O.I.D aka Return on Investment Tool for the 'MMORPG' gaming Commnity
 
 ## Contents
 - [Introduction](#joe-roberts-super-arenas---second-milestone-project)
