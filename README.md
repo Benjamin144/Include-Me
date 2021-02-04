@@ -4,7 +4,7 @@
 
 **This is my 3rd Milestone project covering: Data-Centric Development - Code Institute**
 
-# Welcome to Include:Me A task development tool
+# Welcome to Include:Me Book Review
 
 ## Contents
 - [Introduction](#joe-roberts-Include:Me--Thirds-milestone-project)
@@ -30,7 +30,9 @@
 
 
 ## Introduction - Intro
-
+Welcome to Include:me. This is a web application that enables the user to view and review books that they would personally recommend to other book readers
+The application is customisable where the user can add book titles to the platform, search for titles, ideally be alerted to new titles.
+The purpose of the Include:me raises the awareness of books, authors and publishers in their genres that are on the market
 
 
 ## Conclusion
@@ -64,35 +66,58 @@ In particular, as part of this section we recommend that you provide a list of U
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 ### Strategy
-To design a functional styled website that acts as a basis of information but the site guides the user through a series of navigational links throughout the site
-in a logical manner, whilst stopping at various points to open various content features. The purpose of which Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus felis leo, egestas sit amet libero vel, porttitor varius ex. 
-This would keep the possibility of users coming back to use the site because of interest and intrigue.
+
+TSome questions you might ask about your content, your features, and your product is, "is the content culturally appropriate?"
+You might also want to take into consideration the culture of your audience.
+Is it a corporate site?
+Is it for the artistic community?
+Is it for designers?
+Is it for schools?
+Another question we might ask is "can we track and catalog content in an intuitive way?" "Does it match up?"
+how to present the idea, how to improve site, what value
+why is it so special
+Tec considerations
+why does the user want this
 
 ### Scope
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus felis leo, egestas sit amet libero vel, porttitor varius ex. 
+
+At this point understanding the process of the site would be to reduplicate the function of adding a book title, having a way of displaying and presenting the book entry in such a way as to making the process simple,
+minimal and relatable. Also being able to change the recommendation and then have overall control of wether the user wants to keep or remove the recommendation - From a publiworksshers standpoint, it would be about branding 
+or how closely associated they are to other brands. I would also imagine that this type of platform content might nake the user consider other ways of purchasing the content via electronic media such as eBooks or podcasts.
+To get this done I will need StarT up Bootstraps & Flask frameworks. I will use MongoDB to maintain a scalable database, as the platform evolves.
 
 
 -   ### User stories
 
     -   #### First Time Visitor Goals
 
-        1. As a Developer              ||  I want to understand the global purpose of the site and learn more about the site content in terms of understanding local community projects and developments.
-        2. As a Service Provider       ||  Cras vitae purus metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam s
-        3. As a Subscriber             ||  Cras vitae purus metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam s
+        1. As a Developer              ||  I want to understand the global purpose of the site and learn more about the potential interest and overall usefulness of the site.
+        2. As a Publisher              ||  I would be interested to see a list of Best Sellers for Adults and children
+        3. As a User                   || i want to be able to search for best selling books
 
     -   #### Returning Visitor Goals
 
-        1. As an Developer             ||  Cras vitae purus metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam s
-        2. As a Service Provider       ||  Cras vitae purus metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam s
-        3. As a Subscriber             ||  Cras vitae purus metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam s
+        1. As an Developer             ||  has the flow of functionality being properly understood by the user
+        2. As a Publisher              ||  What authors are frequent users of the site recommending
+        3. As a User                   ||  want to check back and see what ne titles have appeared
 
     -   #### Frequent User Goals
-        1. As a Partners               ||  Cras vitae purus metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam s
-        2. As a Service Provider       ||  Cras vitae purus metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam s
-        3. As a Subscriber             ||  Cras vitae purus metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam s
+        1. As a Developer              ||  look to update the site by alerting users of new include:me book recommendations, via podcasts or online classroom environments, including YouTubw, Google Meet e.t.c
+        2. As a Publisher              ||  Cras vitae purus metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam s
+        3. As a User                   ||  What what kind of book titles are available, via genre,..i.e Sci Fi, Fantasy, e.t.c
+
+    
 
 ### Structure
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus felis leo, egestas sit amet libero vel, porttitor varius ex. Duis in augue eu nulla rutrum interdum. Fusce quis erat sed erat porttitor malesuada at eget mi. Donec eget faucibus tortor, non rutrum sapien. Integer ut lacus lorem. Suspendisse blandit lacinia molestie. In hac habitasse platea dictumst. Nulla tristique auctor quam, a posuere ligula. Aliquam erat volutpat. Donec ac enim aliquet, aliquam velit nec, ultrices sapien. Cras dictum commodo odio, a ullamcorper mauris vestibulum sed. Fusce a lacus eu lorem sollicitudin venenatis id ut elit. Aenean pretium magna a est volutpat, id egestas velit fermentum.
+The structure plane is concerned with the organization of your functionality and your content and how to navigate an intuitive way through your content and your features.
+Is it intuitive - input display mechanism
+How to get to a location  - same page read, input, display, edit and delete functionality
+Categories of information - Titles, Authors, Publishers, Genres
+nThe way information is presented
+The way information is organized
+is it appropriate - linear narrative - simplified
+**Consistent** **Predictable** **Learnable** **Visable** **Feedback**
+
 ## issues, that needed further development 
 - Integer sed diam felis. Nullam vitae malesuada dolor.  
 - Integer sed diam felis. Nullam vitae malesuada dolor. 
@@ -101,6 +126,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus felis leo, eges
 
 
 ### Skeleton
+
+
 
 -   ### Design
     -   #### Colour Scheme
