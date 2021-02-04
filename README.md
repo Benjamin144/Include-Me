@@ -1,13 +1,13 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-<h1 align="center">R.O.I.D - Return on Investment Developent Tool</h1>
+<h1 align="center">Include:Me</h1>
 
 **This is my 3rd Milestone project covering: Data-Centric Development - Code Institute**
 
-# Welcome to R.O.I.D for the 'MMORPG' gaming Commnity
+# Welcome to Include:Me A task development tool
 
 ## Contents
-- [Introduction](#joe-roberts-super-arenas---second-milestone-project)
+- [Introduction](#joe-roberts-Include:Me--Thirds-milestone-project)
 - [Demo](#demo)
 - [UX](#ux)
     * [Strategy](#strategy)
@@ -31,16 +31,7 @@
 
 ## Introduction - Intro
 
-Hello and welcome to R.O.I.D...
-R.o.i.d in certain massivley multiplayer online games (MMO's) also stands for Asteroid, but when abbreviated means 'return on investment developer' and this app is inspired by the space gaming community.
-...A mining foreman or engineer, would board a specialised spacecraft and warp out into hostile regions of space to harvest a payload of important raw matierials. 
-They would risk their conciousness with a very real possibility of being blown up inside their vessel via person verses person combat scenario (PvP). 
-Losing everything = losing collateral & the time spent ammassing a fortune, could disappear very easily. 
-What if I could build an app that helps return a players investment in time and money by purposely planning a routine based around my play style.
-This could be done by building a sandbox item that can be plugged into any MMORGG sandbox. 
-So r.o.i.d essentially is a task management tool that helps gamers organise their gaming style of play. 
-The player will take full control by managing their activities with ease in any gamming environment.
-R.o.i.D..
+
 
 ## Conclusion
 
@@ -61,7 +52,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus felis leo, eges
 
 ## Demo
 
-<h2 align="center"><img src="https://github.com/Benjamin144/r.o.i.d/blob/master/tab-land.PNG"></h2>
+<h2 align="center"><img src="https://github.com/Benjamin144/include:me/blob/master/tab-land.PNG"></h2>
 
 ## User Experience (UX) - Intro
  
@@ -122,15 +113,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus felis leo, eges
         -   The imagery for this site is very minimal and reflects transparency and not flashy. The images of the urpis. Morbi molestie rutrum tincidunt. Ut nulla dolor, suscipit at augue eget, sodales posuere dui. convert well on all screen sizes
  
 ### Wireframes:
-[Mobile View](https://github.com/Benjamin144/r.o.i.d/blob/master/Mobile%20View.png)
-[Tablet View](https://github.com/Benjamin144/r.o.i.d/blob/master/Tablet%20View.png)
-[DeskTop View](https://github.com/Benjamin144/r.o.i.d/blob/master/Desktop%20View.png)
+[Mobile View](https://github.com/Benjamin144/include:me/blob/master/Mobile%20View.png)
+[Tablet View](https://github.com/Benjamin144/include:me/blob/master/Tablet%20View.png)
+[DeskTop View](https://github.com/Benjamin144/include:me/blob/master/Desktop%20View.png)
 
 ### Surface
 
 My site has a simple, unassuming, look and feel. And the functionality is smooth and engaging. Praesent interdum viverra augue eu aliquam
 <p align="right">
-  <a href="joseph-roberts-super-r.o.i.d-app---third-milestone-project">Back to Top :arrow_heading_up:</a> 
+  <a href="joseph-roberts-include:me-app---third-milestone-project">Back to Top :arrow_heading_up:</a> 
 </p>
 
 ## Features Intro
@@ -288,10 +279,10 @@ We continually tweak and adjust this template to help give you the best experien
 
 ## lighthouse
 
--   [Home pages](https://github.com/Benjamin144/r.o.i.d/blob/master/Homepage.PNG)
--   [About Pages](https://github.com/Benjamin144/r.o.i.d/blob/master/About.PNG)
--   [Map Pages](https://github.com/Benjamin144/r.o.i.d/blob/master/Map.PNG)
--   [Subsribe Pages](https://github.com/Benjamin144/r.o.i.d/blob/master/subscribe.PNG)
+-   [Home pages](https://github.com/Benjamin144/include:me/blob/master/Homepage.PNG)
+-   [About Pages](https://github.com/Benjamin144/include:me/blob/master/About.PNG)
+-   [Map Pages](https://github.com/Benjamin144/include:me/blob/master/Map.PNG)
+-   [Subsribe Pages](https://github.com/Benjamin144/include:me/blob/master/subscribe.PNG)
 
 
 
@@ -391,7 +382,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ## Deployment
 
-The site is deployed published at https://benjamin144.github.io/r.o.i.d/ from my GitHub Pages
+The site is deployed published at https://benjamin144.github.io/include:me/ from my GitHub Pages
 
 ### GitHub Pages
 
