@@ -123,14 +123,20 @@ version the imges would have to be vertically aligned rather than horizontlly.
 button the status changes your profile and you are given confirmation of a succesful registrtion
 
 2)Wether you are signed in or not you can view a single book profile of a previously uploaded book title, author, and description 
-and image of the book title as illustrated in diagram 4. In diagram 5 your status would be signed in, here allows you to view your portfolio of books, when you click on the by book, author or the by genre bars
-these actions then navigate to diagram 7 of the wireframe illustration, before looking at diagram 7 in more detail, in diagram 5 the user can also include books and authors via an input text field, 
-their choices will then be updated on their profile here, the user can then view their list of books that are in their portfolio, edit and delete them as they wish.
-3) If you are signed in though you can hit any edit option in the nav bar to open up a new editing page where you can go back to your profie age 
-4) Wether you are signed in or out of the site you are able to use the search method that opens up a new page and gives the user three searchable options, by book, authors or genres
-As part of the process I am looking to use the 5 planes to work through how the structure of this site can be organised and made as intuitive as possible. 
+and image of the book title as illustrated in diagram 4. 
 
-At this point the site is under development could be subject to change in appearence.
+In diagram 5 your status would be signed in, here the app allows you to view your portfolio of books, when you click on the by book, author or the by genre bars
+these actions then navigate to diagram 7 of the wireframe illustration, before looking at diagram 7 in more detail, in diagram 5 the user can also add & include books and authors via an input text field, 
+their choices will then be updated on their profile, the user can then view their list of books that are in their portfolio, edit and delete them as they wish as shown in diagram 7.
+Should the user wish to add more titles, they can then use the + button icon which will navigate the user back to diagram 5
+
+3) If you are signed in though you can hit any edit option in the nav bar to open up a new editing page where you can go back to your profie age 
+
+4) Wether you are signed in or out of the site you are able to use the search method that opens up a new page and gives the user three searchable options, by book, authors or genres
+
+5) Finally there is an option to add in SUPER_USER functionality that allows the user global access across the site. - (Tentative)
+
+As part of the process I am looking to use the 5 planes to work through how the structure of this site can be organised and made as intuitive as possible. At this point the site is under development could be subject to change in appearence.
 
 **Consistent** **Predictable** **Learnable** **Visable** **Feedback** - (Useful points from the 5 planes of success video - 'Code Institute')
 
@@ -165,23 +171,14 @@ At this point the site is under development could be subject to change in appear
   <a href="joseph-roberts-include:me-app---third-milestone-project">Back to Top :arrow_heading_up:</a> 
 </p>
 
-## Features Intro
-
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+## Features
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+If this section grows too long, you may want to split it off into a separate file and link to it from here.......
 
-
-## Features
 MongoDB Driven - non relational database
 ???Email JS driven Subscription Service
 Tec Stack: [Bootstrap] [HTML], [CSS], [Javascript], [Jquery],[Python] [Jinja], [Flask], [Mongo], [Heroku], [Matierialize] [Flash], [Werzeug], [Javascript].[Dot-notion]
