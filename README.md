@@ -31,21 +31,20 @@
 
 ## Introduction - Intro
 Welcome to Include:me. This is a web application that enables the user to view and review books that they would personally recommend to other book readers
-The application is customisable where the user can add book titles to the platform, search for titles, ideally be alerted to new titles.
-The purpose of the Include:me raises the awareness of books, authors and publishers in their genres that are on the market
+The application is customisable where the user can add book titles to the platform, search for titles and ideally be alerted to new titles.
+The purpose of the Include:me is to raise the awareness of the users, authors and publishers interest in their particular genres.
 
 
 ## Conclusion
 
-maiores alias consequatur aut
-perferendis doloribus asperiores repellat.
+This is a book review and recommendation site.
 
 ## The learning outcomes
 To use JavaScript and jQuery, both to manipulate the DOM and to.......cusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi
 
 ## Future Development - Features
-Tech Stack: MySQL - ASP.net Core MVC application
-Make the site secure - by using Log in - Admin/User (security|), I.e. (Later using this method for Authorization and Authentication)
+Tech Stack: MySQL - MVC application
+Make the site secure - by using Log in - Admin/User securtity development with Werzeug definitions.
 
 ## Current Issues
 
@@ -57,34 +56,41 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus felis leo, eges
 <h2 align="center"><img src="https://github.com/Benjamin144/include:me/blob/master/tab-land.PNG"></h2>
 
 ## User Experience (UX) - Intro
+
+When I first looked at the idea of creating this type of idea, I immediately thought on how the CRUD functionality would play a core role with the users interactivity, because the user would be spending alot of their timme
+looking at the available content, then adding their own recommendations, editing their own profiles and searching for new content. Keeping in mind that the best way to go about building the site would be to use
+MonGoDB to help manage the data at the back end and have flask and python to deploy the site to Heroku. My initial thoughts were how I would be able to create front end functionality representations and functionality to work alongside
+the back end. The best way to do this for me was to use a light framweork library in Startup Bootstrap along side Flask, and use HTML to hold it together. I was also very wary how I would overcome how I could get somthing like 
+css grid vs flexbox vs bootstraps to behave in a way that would aid the structre of the site as I would need a 7 page site to make my idea work. Before I decided on what the the site would look like and how it would function, 
+I ask my family members who are avid bookworms! to imagine what it would be like to surf a website to search for new book titles. Some of the answers helped me form an I dea of what I would need to add to the website. In reality though I was 
+unsure wether or not I could fully complete the task or would it become a minimal viable product. So my overall aspiration was to keep the site as visually easy to use as possible and to add features that regular users on similar websites 
+are familiar with in terms of navigating their way around the site
+
+
  
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+******** As a user type, I want to perform an action, so that I can achieve a goal.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file 
+in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.*********
 
 ### Strategy
 
-TSome questions you might ask about your content, your features, and your product is, "is the content culturally appropriate?"
-You might also want to take into consideration the culture of your audience.
-Is it a corporate site?
-Is it for the artistic community?
-Is it for designers?
-Is it for schools?
-Another question we might ask is "can we track and catalog content in an intuitive way?" "Does it match up?"
-how to present the idea, how to improve site, what value
-why is it so special
-Tec considerations
-why does the user want this
+TSome questions you might ask about your content, your features, and your product is, "is the content culturally appropriate?" The product is intended for open learning and as it is based on books their 
+is a limit to who can use the site, due to the potential of adult themes being posted. It's not really a corporate site but more geared to a people you love to read what other peoples interests are.
+There would be a varied community of users that could attract people to the site, I like the colours that Facebook and Linkedin and various social media sites use because those themes draw a sense of community and belonging, 
+so that is something that insppired me to build this site. One of the ideas for this site is to have immediate access to the site, wether the user would become a regular user and sign up or just be more of a casual user and browser
+through limited avaiable content, now because of this I wanted to make the site as interactive as possible, with search, edit and delete funtions, uploading, up voting and down voting. (This may not have been achieved by the completion of the deadline for this project. But is is an aspiration)
+So to conclude it is something that would be very useful those looking to manage their ideal ortfolio of books.
 
 ### Scope
 
 At this point understanding the process of the site would be to reduplicate the function of adding a book title, having a way of displaying and presenting the book entry in such a way as to making the process simple,
-minimal and relatable. Also being able to change the recommendation and then have overall control of wether the user wants to keep or remove the recommendation - From a publiworksshers standpoint, it would be about branding 
+minimal and relatable. Also being able to change the recommendation and then have overall control of wether the user wants to keep or remove the recommendation - From a publishers standpoint, it would be about branding 
 or how closely associated they are to other brands. I would also imagine that this type of platform content might nake the user consider other ways of purchasing the content via electronic media such as eBooks or podcasts.
-To get this done I will need StarT up Bootstraps & Flask frameworks. I will use MongoDB to maintain a scalable database, as the platform evolves.
+To get this done I will need front end frameworks to interpret the look and feel of the site. I will use MongoDB to maintain a scalable database, as the platform evolves.
+So to conclude I mulled over some user stories based on some discussions I was having with friends and family nd various research based on  generic user, a publisher and a software developer wishing to collobotrate on the site.
 
 
 -   ### User stories
@@ -93,7 +99,7 @@ To get this done I will need StarT up Bootstraps & Flask frameworks. I will use 
 
         1. As a Developer              ||  I want to understand the global purpose of the site and learn more about the potential interest and overall usefulness of the site.
         2. As a Publisher              ||  I would be interested to see a list of Best Sellers for Adults and children
-        3. As a User                   || i want to be able to search for best selling books
+        3. As a User                   ||  I want to be able to search for best selling books
 
     -   #### Returning Visitor Goals
 
@@ -107,29 +113,30 @@ To get this done I will need StarT up Bootstraps & Flask frameworks. I will use 
         3. As a User                   ||  What what kind of book titles are available, via genre,..i.e Sci Fi, Fantasy, e.t.c
 
     
-
 ### Structure
-The structure plane is concerned with the organization of your functionality and your content and how to navigate an intuitive way through your content and your features.
-Is it intuitive - input display mechanism
-How to get to a location  - same page read, input, display, edit and delete functionality
-Categories of information - Titles, Authors, Publishers, Genres
-nThe way information is presented
-The way information is organized
-is it appropriate - linear narrative - simplified
-**Consistent** **Predictable** **Learnable** **Visable** **Feedback**
 
-## issues, that needed further development 
-- Integer sed diam felis. Nullam vitae malesuada dolor.  
-- Integer sed diam felis. Nullam vitae malesuada dolor. 
-- Integer sed diam felis. Nullam vitae malesuada dolor. 
-- Integer sed diam felis. Nullam vitae malesuada dolor.      
+When you take a first look at the site, it may have a familiar look to it because of the soft pale blue theme. I wanted to keep the navigational elements and functions consistent through various screen sizes. The correlation between 
+the mobile view and the desk top view would be more of a challenge as it would not be possible to get all of the functions to work,  for example utilising the admin profile where more books can be viewed. It might be that on a mobile 
+version the imges would have to be vertically aligned rather than horizontlly. 
 
+1) Never the less the flow would start with the option of registering your first name, last name, email & password, before signing up. Once you hit the sign up
+button the status changes your profile and you are given confirmation of a succesful registrtion
 
-### Skeleton
+2)Wether you are signed in or not you can view a single book profile of a previously uploaded book title, author, and description 
+and image of the book title as illustrated in diagram 4. In diagram 5 your status would be signed in, here allows you to view your portfolio of books, when you click on the by book, author or the by genre bars
+these actions then navigate to diagram 7 of the wireframe illustration, before looking at diagram 7 in more detail, in diagram 5 the user can also include books and authors via an input text field, 
+their choices will then be updated on their profile here, the user can then view their list of books that are in their portfolio, edit and delete them as they wish.
+3) If you are signed in though you can hit any edit option in the nav bar to open up a new editing page where you can go back to your profie age 
+4) Wether you are signed in or out of the site you are able to use the search method that opens up a new page and gives the user three searchable options, by book, authors or genres
+As part of the process I am looking to use the 5 planes to work through how the structure of this site can be organised and made as intuitive as possible. 
 
+At this point the site is under development could be subject to change in appearence.
 
+**Consistent** **Predictable** **Learnable** **Visable** **Feedback** - (Useful points from the 5 planes of success video - 'Code Institute')
 
--   ### Design
+### Skeleton - (Complete this post code input - for now based in wire framing)
+
+-   ### Design - example write up
     -   #### Colour Scheme
         -   I have used the following global palette of colors for this project: --evergreen: #38855d; --text-gray: #112d60; --text-light: #686666da; --bg-color: #0e3746; --white: #fffaf2; --midnight: #104f55; --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
     -   #### Typography
@@ -144,9 +151,16 @@ is it appropriate - linear narrative - simplified
 [Tablet View](https://github.com/Benjamin144/include:me/blob/master/Tablet%20View.png)
 [DeskTop View](https://github.com/Benjamin144/include:me/blob/master/Desktop%20View.png)
 
-### Surface
+### Surface -  (Complete this post code input - for now based in wire framing)
 
-My site has a simple, unassuming, look and feel. And the functionality is smooth and engaging. Praesent interdum viverra augue eu aliquam
+*** Sample write up - My site has a simple, unassuming, look and feel. And the functionality is smooth and engaging. Praesent interdum viverra augue eu aliquam
+
+## issues, that needed further development 
+- Integer sed diam felis. Nullam vitae malesuada dolor.  
+- Integer sed diam felis. Nullam vitae malesuada dolor. 
+- Integer sed diam felis. Nullam vitae malesuada dolor. 
+- Integer sed diam felis. Nullam vitae malesuada dolor. 
+
 <p align="right">
   <a href="joseph-roberts-include:me-app---third-milestone-project">Back to Top :arrow_heading_up:</a> 
 </p>
