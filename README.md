@@ -472,6 +472,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
+-   [https://courses.codeinstitute.net/courses] - Flask rudimentary code snippets used to initial Framework for Flask ongoing functionality
+
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library template used for subscribe.html page, additional styling was used by me to change appearence
 
 -   [Stackoverflow)](https://stackoverflow.com/questions/19827605/change-bootstrap-navbar-collapse-breakpoint-without-using-less) : Change bootstrap navbar collapse breakpoint without using LESS
