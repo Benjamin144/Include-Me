@@ -502,7 +502,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 - The photos used in this site were obtained from ...
 ### Media
 
--   (https://stock.adobe.com/uk) resource images. https://stock.adobe.com/uk/images/.............. - Landing page image
+-   [PngTree.com] Landing page image - https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUbPV-Qsd8yjhmg2SuONOILDtOlV_UhxVsZA&usqp=CAU - Technology Blue Background colour
 
 ### Acknowledgements - Intro
 
