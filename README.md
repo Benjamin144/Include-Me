@@ -338,6 +338,7 @@ We continually tweak and adjust this template to help give you the best experien
     **Fixed     TemplateNotFound error even though template file exists, there was a formatting issue with the HTML file causing the app decorator to malfunction.
                 I resolved this by acrediting the formating from https://github.com/Code-Institute-Solutions/FlaskFramework/blob/master/01-GettingStarted/03-routing/templates/contact.html
                 which fixed the error. I also tried a code line, app = Flask(__name__, template_folder='template'), as an experiment to test if the app.py could find the html file, but that didn't work.
+                https://stackoverflow.com/questions/23327293/flask-raises-templatenotfound-error-even-though-template-file-exists
     
 ### Testing User Stories from User Experience (UX) Section
 
@@ -474,7 +475,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   [https://courses.codeinstitute.net/courses] - Flask rudimentary code snippets used to initial Framework for Flask ongoing functionality
 
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library template used for subscribe.html page, additional styling was used by me to change appearence
+-   [Bootstrap4]https://startbootstrap.com/template/scrolling-nav: Bootstrap Library template used in static file, as a base for ongoing development, additional styling was my own influence to change the appearence of the site.
 
 -   [Stackoverflow)](https://stackoverflow.com/questions/19827605/change-bootstrap-navbar-collapse-breakpoint-without-using-less) : Change bootstrap navbar collapse breakpoint without using LESS
 

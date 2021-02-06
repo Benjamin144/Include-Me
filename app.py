@@ -15,9 +15,19 @@ def search():
     return render_template("search.html")
 
 
+@app.route("/edit")
+def edit():
+    return render_template("edit.html")
+
+
 @app.route("/signin")
 def signin():
     return render_template("signin.html")
+
+
+@app.route("/signout")
+def signout():
+    return render_template("signout.html")
 
 
 if __name__ == "__main__":
