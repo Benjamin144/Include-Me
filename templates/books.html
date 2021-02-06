@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Include:Me</title>
+</head>
+<body>
+    {% for book in books %}
+        {{ book.book_name }}<br>
+        {{ book.category_name }}<br>
+        {{ book.book_description }}<br>
+        {{ book.remind_me }}<br>
+        {{ book.due_date }}<br>
+    {% endfor %}
+</body>
+</html>
