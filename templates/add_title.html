@@ -1,42 +1,42 @@
 {% extends "base.html" %}
 {% block content %}
 
-    <h3 class="light-blue-text text-darken-4 center-align">Add Task</h3>
-
+    <h3 class="light-blue-text text-darken-4 center-align">Add a Title!</h3>
+c
     <div class="row card-panel grey lighten-5">
-        <form class="col s12" method="POST" action="{{ url_for('add_task') }}">
-            <!-- category selection -->
+        <form class="col s12" method="POST" action="{{ url_for('add_title') }}">
+            <!-- genres selection -->
 			<div class="row">
 				<div class="input-field col s12">
                     <i class="fas fa-folder-open prefix light-blue-text text-darken-4"></i>
-					<select id="category_name" name="category_name" class="validate" required>
-                        <option value="" disabled selected>Choose Category</option>
-                        {% for category in categories %}
-                            <option value="{{ category.category_name }}">{{ category.category_name }}</option>
+					<select id="genre_name" name="genre_name" class="validate" required>
+                        <option value="" disabled selected>Choose Genre</option>
+                        {% for genre in genres %}
+                            <option value="{{ genre.genre_name }}">{{ genre.genre_name }}</option>
                         {% endfor %}
                     </select>
-					<label for="category_name">Task Category</label>
+					<label for="genre_name">Genre</label>
 				</div>
 			</div>
-            <!-- task name -->
+            <!-- title name -->
             <div class="row">
                 <div class="input-field col s12">
                     <i class="fas fa-pencil-alt prefix light-blue-text text-darken-4"></i>
-                    <input id="task_name" name="task_name" minlength="5" maxlength="50"
+                    <input id="title_name" name="title_name" minlength="5" maxlength="50"
                         type="text" class="validate" required>
-                    <label for="task_name">Task Name</label>
+                    <label for="title_name">Title</label>
                 </div>
             </div>
-            <!-- task description -->
+            <!-- title description -->
             <div class="row">
                 <div class="input-field col s12">
                     <i class="fas fa-align-left prefix light-blue-text text-darken-4"></i>
-                    <textarea id="task_description" name="task_description" minlength="5"
+                    <textarea id="authors_description" name="authors_description" minlength="5"
                         maxlength="200" class="materialize-textarea validate" required></textarea>
-                    <label for="task_description">Task Description</label>
+                    <label for="authors_description">Author</label>
                 </div>
             </div>
-            <!-- due date picker -->
+            <!-- due date selector-->
             <div class="row">
                 <div class="input-field col s12">
                     <i class="fas fa-calendar-alt prefix light-blue-text text-darken-4"></i>
@@ -44,7 +44,7 @@
                     <label for="due_date">Due Date</label>
                 </div>
             </div>
-            <!-- is urgent toggle -->
+            <!-- is buy indicator -->
 			<div class="row">
 				<div class="input-field col s12">
 					<div class="switch">
@@ -52,7 +52,7 @@
 						<label for="is_urgent">
                             <input type="checkbox" id="is_urgent" name="is_urgent">
                             <span class="lever"></span>
-                            Is Urgent
+                            Buy It!
                         </label>
 					</div>
 				</div>
@@ -61,7 +61,7 @@
             <div class="row">
                 <div class="col s12 center-align">
                     <button type="submit" class="btn-large light-blue darken-1 text-shadow">
-                        Add Task <i class="fas fa-plus-square right"></i>
+                        Add Title <i class="fas fa-plus-square right"></i>
                     </button>
                 </div>
             </div>

@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
 
-    <h3 class="light-blue-text text-darken-4 center-align">All Tasks</h3>
+    <h3 class="light-blue-text text-darken-4 center-align">All Titles</h3>
 
     <div class="row card-panel grey lighten-5">
         <form action="{{ url_for('search') }}" method="post" class="col s12">
@@ -9,11 +9,11 @@
                 <div class="input-field col s12 m8">
                     <i class="fas fa-search prefix light-blue-text text-darken-4"></i>
                     <input type="text" name="query" id="query" minlength="3" class="validate" required>
-                    <label for="query">Search Tasks</label>
+                    <label for="query">Search Titles</label>
                 </div>
                 <div class="col s12 m4">
-                    <a href="{{ url_for('get_tasks') }}" class="red btn text-shadow">Reset</a>
-                    <button type="submit" class="light-blue darken-1 btn text-shadow">
+                    <a href="{{ url_for('get_titles') }}" class="red btn text-shadow">Reset</a>
+                    <button type="submit" class="btn waves-effect waves-teal">     
                         <i class="fas fa-search left"></i> Search
                     </button>
                 </div>
@@ -21,30 +21,30 @@
         </form>
     </div>
 
-    {% if tasks|length > 0 %}
-    <ul class="collapsible">
-        {% for task in tasks %}
+    {% if titles|length > 0 %}
+       <ul class="collapsible popout">
+        {% for title in titles %}
         <li>
             <div class="collapsible-header white-text light-blue darken-4 text-shadow">
                 <div class="col s3">
                     <i class="fas fa-caret-down"></i>
-                    {% if session.user|lower == task.created_by|lower %}
-                        <a href="{{ url_for('delete_task', task_id=task._id) }}" class="btn-small green accent-4">Done</a>
-                        <a href="{{ url_for('edit_task', task_id=task._id) }}" class="btn-small light-blue lighten-1">Edit</a>
+                    {% if session.user|lower == title.recomended_by|lower %}
+                        <a href="{{ url_for('delete_title', title_id=title._id) }}" class="btn-small green accent-4">Done</a>
+                        <a href="{{ url_for('edit_title', title_id=title._id) }}" class="btn-small light-blue lighten-1">Edit</a>
                     {% endif %}
                 </div>
                 <div class="col s9">
-                    <strong>{{ task.task_name }}</strong> : {{ task.due_date }}
-                    {% if task.is_urgent == "on" %}
+                    <strong>{{ title.title_name }}</strong> : {{ title.due_date }}
+                    {% if title.is_urgent == "on" %}
                         <i class="fas fa-exclamation-circle light-blue-text text-lighten-2 tooltipped"
-                            data-position="right" data-tooltip="URGENT!"></i>
+                            data-position="right" data-tooltip="UP VOTE NOW!"></i>
                     {% endif %}
                 </div>
             </div>
             <div class="collapsible-body">
-                <strong>{{ task.category_name }}</strong>
-                <p>{{ task.task_description }}</p>
-                <p><em>by: {{ task.created_by }}</em></p>
+                <strong>{{ title.genre_name }}</strong>
+                <p>{{ title.title_description }}</p>
+                <p><em>by: {{ title.created_by }}</em></p>
             </div>
         </li>
         {% endfor %}

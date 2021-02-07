@@ -19,17 +19,17 @@ mongo = PyMongo(app)
 
 
 @app.route("/")
-@app.route("/get_tasks")
-def get_tasks():
-    tasks = list(mongo.db.tasks.find())
-    return render_template("tasks.html", tasks=tasks)
+@app.route("/get_titles")
+def get_titles():
+    titles = list(mongo.db.titles.find())
+    return render_template("titles.html", titles=titles)
 
 
 @app.route("/search", methods=["GET", "POST"])
 def search():
     query = request.form.get("query")
-    tasks = list(mongo.db.tasks.find({"$text": {"$search": query}}))
-    return render_template("tasks.html", tasks=tasks)
+    titles = list(mongo.db.titles.find({"$text": {"$search": query}}))
+    return render_template("titles.html", titles=titles)
 
 
 @app.route("/register", methods=["GET", "POST"])
@@ -49,9 +49,9 @@ def register():
         }
         mongo.db.users.insert_one(register)
 
-        # put the new user into 'session' cookie
+        # puts the new user into 'session' cookie
         session["user"] = request.form.get("username").lower()
-        flash("Registration Successful!")
+        flash("Thanks for Joining!")
         return redirect(url_for("profile", username=session["user"]))
 
     return render_template("register.html")
@@ -60,22 +60,22 @@ def register():
 @app.route("/login", methods=["GET", "POST"])
 def login():
     if request.method == "POST":
-        # check if username exists in db
+        # check if username exists in mongo
         existing_user = mongo.db.users.find_one(
             {"username": request.form.get("username").lower()})
 
         if existing_user:
-            # ensure hashed password matches user input
+            # ensures that hashed password matches user input
             if check_password_hash(
                     existing_user["password"], request.form.get("password")):
                         session["user"] = request.form.get("username").lower()
-                        flash("Welcome, {}".format(
+                        flash("Nice to have you, {}!".format(
                             request.form.get("username")))
                         return redirect(url_for(
                             "profile", username=session["user"]))
             else:
                 # invalid password match
-                flash("Incorrect Username and/or Password")
+                flash("Something went wrong please check your Username and/or Password")
                 return redirect(url_for("login"))
 
         else:
@@ -101,96 +101,96 @@ def profile(username):
 @app.route("/logout")
 def logout():
     # remove user from session cookie
-    flash("You have been logged out")
+    flash("See you soon!")
     session.pop("user")
     return redirect(url_for("login"))
 
 
-@app.route("/add_task", methods=["GET", "POST"])
-def add_task():
+@app.route("/add_title", methods=["GET", "POST"])
+def add_title():
     if request.method == "POST":
         is_urgent = "on" if request.form.get("is_urgent") else "off"
-        task = {
-            "category_name": request.form.get("category_name"),
-            "task_name": request.form.get("task_name"),
-            "task_description": request.form.get("task_description"),
+        title = {
+            "genre_name": request.form.get("genre_name"),
+            "title_name": request.form.get("title_name"),
+            "authors_description": request.form.get("authors_description"),
             "is_urgent": is_urgent,
             "due_date": request.form.get("due_date"),
             "created_by": session["user"]
         }
-        mongo.db.tasks.insert_one(task)
-        flash("Task Successfully Added")
-        return redirect(url_for("get_tasks"))
+        mongo.db.titles.insert_one(title)
+        flash("Title Successfully Added")
+        return redirect(url_for("get_titles"))
 
-    categories = mongo.db.categories.find().sort("category_name", 1)
-    return render_template("add_task.html", categories=categories)
+    genres = mongo.db.genres.find().sort("genre_name", 1)
+    return render_template("add_title.html", genres=genres)
 
 
-@app.route("/edit_task/<task_id>", methods=["GET", "POST"])
-def edit_task(task_id):
+@app.route("/edit_title/<title_id>", methods=["GET", "POST"])
+def edit_title(title_id):
     if request.method == "POST":
         is_urgent = "on" if request.form.get("is_urgent") else "off"
         submit = {
-            "category_name": request.form.get("category_name"),
-            "task_name": request.form.get("task_name"),
-            "task_description": request.form.get("task_description"),
+            "genre_name": request.form.get("genre_name"),
+            "title_name": request.form.get("title_name"),
+            "authors_description": request.form.get("authors_description"),
             "is_urgent": is_urgent,
             "due_date": request.form.get("due_date"),
             "created_by": session["user"]
         }
-        mongo.db.tasks.update({"_id": ObjectId(task_id)}, submit)
-        flash("Task Successfully Updated")
+        mongo.db.title.update({"_id": ObjectId(title_id)}, submit)
+        flash("You've Include a New Title!")
 
-    task = mongo.db.tasks.find_one({"_id": ObjectId(task_id)})
-    categories = mongo.db.categories.find().sort("category_name", 1)
-    return render_template("edit_task.html", task=task, categories=categories)
-
-
-@app.route("/delete_task/<task_id>")
-def delete_task(task_id):
-    mongo.db.tasks.remove({"_id": ObjectId(task_id)})
-    flash("Task Successfully Deleted")
-    return redirect(url_for("get_tasks"))
+    title = mongo.db.titles.find_one({"_id": ObjectId(title_id)})
+    genres = mongo.db.genres.find().sort("genre_name", 1)
+    return render_template("edit_title.html", title=title, genres=genres)
 
 
-@app.route("/get_categories")
-def get_categories():
-    categories = list(mongo.db.categories.find().sort("category_name", 1))
-    return render_template("categories.html", categories=categories)
+@app.route("/delete_title/<title_id>")
+def delete_title(title_id):
+    mongo.db.titles.remove({"_id": ObjectId(title_id)})
+    flash("Title Successfully Removed!")
+    return redirect(url_for("get_titles"))
 
 
-@app.route("/add_category", methods=["GET", "POST"])
-def add_category():
+@app.route("/get_genres")
+def get_genres():
+    genres = list(mongo.db.genres.find().sort("genre_name", 1))
+    return render_template("genres.html", genres=genres)
+
+
+@app.route("/add_genre", methods=["GET", "POST"])
+def add_genre():
     if request.method == "POST":
-        category = {
-            "category_name": request.form.get("category_name")
+        genre = {
+            "genre_name": request.form.get("genre_name")
         }
-        mongo.db.categories.insert_one(category)
-        flash("New Category Added")
-        return redirect(url_for("get_categories"))
+        mongo.db.genres.insert_one(genre)
+        flash("New Genre Added")
+        return redirect(url_for("get_genres"))
 
-    return render_template("add_category.html")
+    return render_template("add_genre.html")
 
 
-@app.route("/edit_category/<category_id>", methods=["GET", "POST"])
-def edit_category(category_id):
+@app.route("/edit_genre/<genre_id>", methods=["GET", "POST"])
+def edit_genre(genre_id):
     if request.method == "POST":
         submit = {
-            "category_name": request.form.get("category_name")
+            "genre_name": request.form.get("genre_name")
         }
-        mongo.db.categories.update({"_id": ObjectId(category_id)}, submit)
-        flash("Category Successfully Updated")
-        return redirect(url_for("get_categories"))
+        mongo.db.genres.update({"_id": ObjectId(genre_id)}, submit)
+        flash("Genre Successfully Updated")
+        return redirect(url_for("get_genres"))
 
-    category = mongo.db.categories.find_one({"_id": ObjectId(category_id)})
-    return render_template("edit_category.html", category=category)
+    genre = mongo.db.genres.find_one({"_id": ObjectId(genre_id)})
+    return render_template("edit_genre.html", genre=genre)
 
 
-@app.route("/delete_category/<category_id>")
-def delete_category(category_id):
-    mongo.db.categories.remove({"_id": ObjectId(category_id)})
-    flash("Category Successfully Deleted")
-    return redirect(url_for("get_categories"))
+@app.route("/delete_genre/<genre_id>")
+def delete_genre(genre_id):
+    mongo.db.genres.remove({"_id": ObjectId(genre_id)})
+    flash("Genre Successfully Removed")
+    return redirect(url_for("get_genres"))
 
 
 if __name__ == "__main__":
