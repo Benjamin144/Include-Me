@@ -1,10 +1,10 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-<h1 align="center">Include:Me</h1>
+<h1 align="center">Include Me</h1>
 
 **This is my 3rd Milestone project covering: Data-Centric Development - Code Institute**
 
-# Welcome to Include:Me Book Review
+# Welcome to Include Me Book Review
 
 ## Contents
 - [Introduction](#joe-roberts-Include:Me--Thirds-milestone-project)
@@ -29,27 +29,19 @@
     * [Acknowledgments](#acknowledgements)
 
 
-## Introduction - Intro
-Welcome to Include:me. This is a web application that enables the user to view and review books that they would personally recommend to other book readers
-The application is customisable where the user can add book titles to the platform, search for titles and ideally be alerted to new titles.
-The purpose of the Include:me is to raise the awareness of the users, authors and publishers interest in their particular genres.
-
-
-## Conclusion
-
-This is a book review and recommendation site.
+## Introduction
+This is a book review and recommendation site. The web application enables the user to view and review books that they would personally recommend to other book readers.
 
 ## The learning outcomes
-To use JavaScript and jQuery, both to manipulate the DOM and to.......cusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi
+Used Jinja for writing less code. MongoDb to create a database of information and Heroku to deploy the site.
 
 ## Future Development - Features
-Tech Stack: MySQL - MVC application
-Make the site secure - by using Log in - Admin/User securtity development with Werzeug definitions.
+Make the site secure - by using Log in - Admin/User securtity.
 
 ## Current Issues
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus felis leo, egestas sit amet libero vel, porttitor varius ex.  **resolved**
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus felis leo, egestas sit amet libero vel, porttitor varius ex.  **resolved**
+Search functions on home page before logging in throws error 'pymongo.errors.OperationFailure' 
+Edit function broken 
 
 ## Demo
 
@@ -57,41 +49,20 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus felis leo, eges
 
 ## User Experience (UX) - Intro
 
-When I first looked at the idea of creating this type of idea, I immediately thought on how the CRUD functionality would play a core role with the users interactivity, because the user would be spending alot of their timme
-looking at the available content, then adding their own recommendations, editing their own profiles and searching for new content. Keeping in mind that the best way to go about building the site would be to use
-MonGoDB to help manage the data at the back end and have flask and python to deploy the site to Heroku. My initial thoughts were how I would be able to create front end functionality representations and functionality to work alongside
-the back end. The best way to do this for me was to use a light framweork library in Startup Bootstrap along side Flask, and use HTML to hold it together. I was also very wary how I would overcome how I could get somthing like 
-css grid vs flexbox vs bootstraps to behave in a way that would aid the structre of the site as I would need a 7 page site to make my idea work. Before I decided on what the the site would look like and how it would function, 
-I ask my family members who are avid bookworms! to imagine what it would be like to surf a website to search for new book titles. Some of the answers helped me form an I dea of what I would need to add to the website. In reality though I was 
-unsure wether or not I could fully complete the task or would it become a minimal viable product. So my overall aspiration was to keep the site as visually easy to use as possible and to add features that regular users on similar websites 
-are familiar with in terms of navigating their way around the site
-
-
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-******** As a user type, I want to perform an action, so that I can achieve a goal.
+CRUD functionality would play a core role with the users looking at the available content before adding their own recommendations editing their own profiles and searching for new content. 
+So my overall aspiration was to keep the site as visually easy to use as possible.
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file 
 in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.*********
 
 ### Strategy
 
-TSome questions you might ask about your content, your features, and your product is, "is the content culturally appropriate?" The product is intended for open learning and as it is based on books their 
-is a limit to who can use the site, due to the potential of adult themes being posted. It's not really a corporate site but more geared to a people you love to read what other peoples interests are.
-There would be a varied community of users that could attract people to the site, I like the colours that Facebook and Linkedin and various social media sites use because those themes draw a sense of community and belonging, 
-so that is something that insppired me to build this site. One of the ideas for this site is to have immediate access to the site, wether the user would become a regular user and sign up or just be more of a casual user and browser
-through limited avaiable content, now because of this I wanted to make the site as interactive as possible, with search, edit and delete funtions, uploading, up voting and down voting. (This may not have been achieved by the completion of the deadline for this project. But is is an aspiration)
-So to conclude it is something that would be very useful those looking to manage their ideal ortfolio of books.
+There would be a varied community of users that could attract people to the site. 
 
 ### Scope
 
-At this point understanding the process of the site would be to reduplicate the function of adding a book title, having a way of displaying and presenting the book entry in such a way as to making the process simple,
-minimal and relatable. Also being able to change the recommendation and then have overall control of wether the user wants to keep or remove the recommendation - From a publishers standpoint, it would be about branding 
-or how closely associated they are to other brands. I would also imagine that this type of platform content might nake the user consider other ways of purchasing the content via electronic media such as eBooks or podcasts.
-To get this done I will need front end frameworks to interpret the look and feel of the site. I will use MongoDB to maintain a scalable database, as the platform evolves.
-So to conclude I mulled over some user stories based on some discussions I was having with friends and family nd various research based on  generic user, a publisher and a software developer wishing to collobotrate on the site.
-
+At this point understanding the process of the site would be to reduplicate the function of adding a book title, having a way of displaying and presenting the book entry. 
+Ihave used Materialises to interpret the look and feel of the site. I will use MongoDB to maintain a scalable database, as the platform evolves.
 
 -   ### User stories
 
@@ -138,7 +109,6 @@ Should the user wish to add more titles, they can then use the + button icon whi
 
 As part of the process I am looking to use the 5 planes to work through how the structure of this site can be organised and made as intuitive as possible. At this point the site is under development could be subject to change in appearence.
 
-**Consistent** **Predictable** **Learnable** **Visable** **Feedback** - (Useful points from the 5 planes of success video - 'Code Institute')
 
 ### Skeleton - (Complete this post code input - for now based in wire framing)
 
