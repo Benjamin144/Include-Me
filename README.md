@@ -49,11 +49,14 @@ Edit function broken
 
 ## User Experience (UX) - Intro
 
-CRUD functionality would play a core role with the users looking at the available content before adding their own recommendations editing their own profiles and searching for new content. 
-So my overall aspiration was to keep the site as visually easy to use as possible.
+C.R.U.D is used to navigate through the website with notifications to confirm the user profiles status.
+## Wireframes = (use pdf files)
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file 
-in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.*********
+### Wireframes:
+
+<!-- [Mobile View](https://github.com/Benjamin144/include:me/blob/master/Mobile%20View.png)
+[Tablet View](https://github.com/Benjamin144/include:me/blob/master/Tablet%20View.png)
+[DeskTop View](https://github.com/Benjamin144/include:me/blob/master/Desktop%20View.png) -->
 
 ### Strategy
 
@@ -61,81 +64,36 @@ There would be a varied community of users that could attract people to the site
 
 ### Scope
 
-At this point understanding the process of the site would be to reduplicate the function of adding a book title, having a way of displaying and presenting the book entry. 
-Ihave used Materialises to interpret the look and feel of the site. I will use MongoDB to maintain a scalable database, as the platform evolves.
+Reduplicates of additional a book titles, and displaying them as a log entry. 
+Materialises and Matierial Design is used as the front end display and MongoDB is used as a non relational database.
 
--   ### User stories
-
-    -   #### First Time Visitor Goals
-
-        1. As a Developer              ||  I want to understand the global purpose of the site and learn more about the potential interest and overall usefulness of the site.
-        2. As a Publisher              ||  I would be interested to see a list of Best Sellers for Adults and children
-        3. As a User                   ||  I want to be able to search for best selling books
-
-    -   #### Returning Visitor Goals
-
-        1. As an Developer             ||  has the flow of functionality being properly understood by the user
-        2. As a Publisher              ||  What authors are frequent users of the site recommending
-        3. As a User                   ||  want to check back and see what ne titles have appeared
-
-    -   #### Frequent User Goals
-        1. As a Developer              ||  look to update the site by alerting users of new include:me book recommendations, via podcasts or online classroom environments, including YouTubw, Google Meet e.t.c
-        2. As a Publisher              ||  Cras vitae purus metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam s
-        3. As a User                   ||  What what kind of book titles are available, via genre,..i.e Sci Fi, Fantasy, e.t.c
-
-    
 ### Structure
 
-When you take a first look at the site, it may have a familiar look to it because of the soft pale blue theme. I wanted to keep the navigational elements and functions consistent through various screen sizes. The correlation between 
-the mobile view and the desk top view would be more of a challenge as it would not be possible to get all of the functions to work,  for example utilising the admin profile where more books can be viewed. It might be that on a mobile 
-version the imges would have to be vertically aligned rather than horizontlly. 
+1) Options to register your first name, last name, email & password, before signing up and given sign up confirmation
 
-1) Never the less the flow would start with the option of registering your first name, last name, email & password, before signing up. Once you hit the sign up
-button the status changes your profile and you are given confirmation of a succesful registrtion
+2) User can now add new titles from a list of genres, edit their choices or delete them & toggle read by a certain calender date.
 
-2)Wether you are signed in or not you can view a single book profile of a previously uploaded book title, author, and description 
-and image of the book title as illustrated in diagram 4. 
+3) A SUPER_USER profile can be added with admin privileges access the global management of genres across the site
 
-In diagram 5 your status would be signed in, here the app allows you to view your portfolio of books, when you click on the by book, author or the by genre bars
-these actions then navigate to diagram 7 of the wireframe illustration, before looking at diagram 7 in more detail, in diagram 5 the user can also add & include books and authors via an input text field, 
-their choices will then be updated on their profile, the user can then view their list of books that are in their portfolio, edit and delete them as they wish as shown in diagram 7.
-Should the user wish to add more titles, they can then use the + button icon which will navigate the user back to diagram 5
-
-3) If you are signed in though you can hit any edit option in the nav bar to open up a new editing page where you can go back to your profie age 
-
-4) Wether you are signed in or out of the site you are able to use the search method that opens up a new page and gives the user three searchable options, by book, authors or genres
-
-5) Finally there is an option to add in SUPER_USER functionality that allows the user global access across the site. - (Tentative)
+4) An upvoting mechanism to be added (tentative)
 
 As part of the process I am looking to use the 5 planes to work through how the structure of this site can be organised and made as intuitive as possible. At this point the site is under development could be subject to change in appearence.
 
+### Skeleton 
 
-### Skeleton - (Complete this post code input - for now based in wire framing)
-
--   ### Design - example write up
-    -   #### Colour Scheme
-        -   I have used the following global palette of colors for this project: --evergreen: #38855d; --text-gray: #112d60; --text-light: #686666da; --bg-color: #0e3746; --white: #fffaf2; --midnight: #104f55; --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
-    -   #### Typography
-            I have used light font themes to add a friendly non formal appearence: "Carter_One", "Josefin", "Livvic", "Roboto".
-        -   The Livvic font=family for nav links across the site & Carter_One commonly used across the site, with Josefin secondary font, which is light non invasive, 
-            
-    -   #### Imagery
-        -   The imagery for this site is very minimal and reflects transparency and not flashy. The images of the urpis. Morbi molestie rutrum tincidunt. Ut nulla dolor, suscipit at augue eget, sodales posuere dui. convert well on all screen sizes
+- Multi page design, main home page presents functional features straight away
+- Typography - I have used light font themes
+- Imagery - (TBA)
  
-### Wireframes:
-[Mobile View](https://github.com/Benjamin144/include:me/blob/master/Mobile%20View.png)
-[Tablet View](https://github.com/Benjamin144/include:me/blob/master/Tablet%20View.png)
-[DeskTop View](https://github.com/Benjamin144/include:me/blob/master/Desktop%20View.png)
+### Surface 
 
-### Surface -  (Complete this post code input - for now based in wire framing)
-
-*** Sample write up - My site has a simple, unassuming, look and feel. And the functionality is smooth and engaging. Praesent interdum viverra augue eu aliquam
+- Colours used a blue and white theme.
+- Simple link based navbar and buttons across a white background, with the blue and footer colour subject to change (tentative)
 
 ## issues, that needed further development 
-- Integer sed diam felis. Nullam vitae malesuada dolor.  
-- Integer sed diam felis. Nullam vitae malesuada dolor. 
-- Integer sed diam felis. Nullam vitae malesuada dolor. 
-- Integer sed diam felis. Nullam vitae malesuada dolor. 
+
+- reducing white space around the site
+- responsiveness in mobile devices - search field
 
 <p align="right">
   <a href="joseph-roberts-include:me-app---third-milestone-project">Back to Top :arrow_heading_up:</a> 
@@ -143,16 +101,12 @@ As part of the process I am looking to use the 5 planes to work through how the 
 
 ## Features
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+Navigational elements remain through various screen sizes. Mobile view is vertically aligned.
 
+Corresponding indices criteria between mongodb and possible titles.html throws errors after hitting the edit button when logged into a profile. 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.......
-
-MongoDB Driven - non relational database
-???Email JS driven Subscription Service
-Tec Stack: [Bootstrap] [HTML], [CSS], [Javascript], [Jquery],[Python] [Jinja], [Flask], [Mongo], [Heroku], [Matierialize] [Flash], [Werzeug], [Javascript].[Dot-notion]
-### Existing Features
+<!-- ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
 - ...
 
@@ -161,53 +115,46 @@ For some/all of your features, you may choose to reference the specific project 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+- A visual representation of the Book
+- A downloadable sample from partnering website
+- A buy book link to oan external ecommerce website -->
 
 ## Features II
 
 -   Responsive on all device sizes
 
--   Interactive elements, such as, pull down nav bars, carousel, modals, maps API and email functionality. 
+-   Up vote system that outputs a like / dislike feature
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+<!--In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. 
+For each, provide its name, a link to its official site and a short sentence of why it was used. -->
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
-
-All of the Features within the Super Arenas website  using  Javascript, Jquery CSS & HTML core, 'OWL' and 'Bootstrap' Front-end Component Libaries, GoogleMaps API, and EmailJS.
-
-### Languages Used
-
+-   [JQuery](https://jquery.com) 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 -   [JS](https://en.wikipedia.org/wiki/JavaScript)
 -   [JQ](https://en.wikipedia.org/wiki/jQuery)
 
 
-
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
-    - Bootstrap was used to assist with the responsiveness and styling of the website.
-1. [Owl.Carousel 2:](https://owlcarousel2.github.io/OwlCarousel2/)
-    - Touch enabled jQuery plugin that lets you create a beautiful responsive carousel slider.
-1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
-1. [Font Awesome:](https://fontawesome.com/)
+1. [Materialize CSS:](https://materializecss.com/)
+    - Materialize was used to assist with the responsiveness and styling of the website.
+2. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the 'roboto' font into the style.css file which is used on all pages throughout the project.
+3. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-1. [jQuery:](https://jquery.com/)
-    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
-1. [Git](https://git-scm.com/)
+4. [jQuery:](https://jquery.com/)
+    - jQuery came with Materialize to make the navbar responsive, calender date picker options, collapsable elements for the book recommendation, Accordian style 'Pop out' functions  .
+5. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-1. [GitHub:](https://github.com/)
+6. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-1. [Paint 3D:](https://www.microsoft.com/en-gb/p/paint-3d/9nblggh5fv99)
+7. [Paint 3D:](https://www.microsoft.com/en-gb/p/paint-3d/9nblggh5fv99)
     - Paint 3D s a built-in creative application that comes free with Windows 10*.
-1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+8. [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the [wireframes]during the design process.
 
     <p align="right">
   <a href="joseph-roberts-super-arenas---second-milestone-project">Back to Top :arrow_heading_up:</a> 
@@ -215,7 +162,7 @@ All of the Features within the Super Arenas website  using  Javascript, Jquery C
 
 ## Testing - Intro
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+<!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 
@@ -236,12 +183,12 @@ In addition, you should mention in this section how your project looks and works
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+If this section grows too long, you may want to split it off into a separate file and link to it from here. -->
 
 
 ## Testing - Write up
 
-## when using Gitpod 
+## Gitpod set up  
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
@@ -262,9 +209,8 @@ In Gitpod you have superuser security privileges by default. Therefore you do no
 I have tested my project using Chromes developer tools, and Light House
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Template version history used to install, Python, Flask, Py-Mongo 
+-Hosted by The Code Institute
 
 **October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
@@ -285,23 +231,26 @@ We continually tweak and adjust this template to help give you the best experien
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 
 
-## lighthouse
+## lighthouse 
 
--   [Home pages](https://github.com/Benjamin144/include:me/blob/master/Homepage.PNG)
+-   For final testing
+
+<!--[Home pages](https://github.com/Benjamin144/include:me/blob/master/Homepage.PNG)
 -   [About Pages](https://github.com/Benjamin144/include:me/blob/master/About.PNG)
 -   [Map Pages](https://github.com/Benjamin144/include:me/blob/master/Map.PNG)
--   [Subsribe Pages](https://github.com/Benjamin144/include:me/blob/master/subscribe.PNG)
+-   [Subsribe Pages](https://github.com/Benjamin144/include:me/blob/master/subscribe.PNG) -->
 
 
 
-## Further Testing#
-#Check site UX for navigational completeness - make sure links work - log links in readMe that are in development. 
+## Further Testing
+
+<!-- #Check site UX for navigational completeness - make sure links work - log links in readMe that are in development. 
 #Check site UI - Ensure ease of use (does the site make sense).
 #Check rating with lighthouse (screenshot results and use in readMe)
 #Check responsiveness on all devices
 #Check responsiveness on all web browsers
 #Clear bugs - reference, the Slack community, tutors & online support, i.e console log.
-#Run the code through (W3C) validators
+#Run the code through (W3C) validators -->
 
 ## Testing Errors - Struggling to get past these...type of error sample below:
 
@@ -312,56 +261,24 @@ We continually tweak and adjust this template to help give you the best experien
     
 ### Testing User Stories from User Experience (UX) Section
 
--   #### First Time Visitor Goals
+-   ### User stories
 
-    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the Website.
+    -   #### First Time Visitor Goals
 
-        1. Aliquam nisi felis, posuere sed dui et, facilisis facilisis dolor. In hac habitasse platea dictumst. Donec pellentesque massa at tristique aliquet. Vestibulum ultricies nunc at
-        2. Aliquam nisi felis, posuere sed dui et, facilisis facilisis dolor. In hac habitasse platea dictumst. Donec pellentesque massa at tristique aliquet. Vestibulum ultricies nunc at
-        3. Aliquam nisi felis, posuere sed dui et, facilisis facilisis dolor. In hac habitasse platea dictumst. Donec pellentesque massa at tristique aliquet. Vestibulum ultricies nunc at
-    
-    2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+        1. As a Developer              ||  I want to understand the global purpose of the site and learn more about the potential interest and overall usefulness of the site.
+        2. As a Publisher              ||  I would be interested to see a list of bestsellers for adults and children.
+        3. As a User                   ||  I want to be able to search for best selling books titles.
 
-        1.  Aliquam nisi felis, posuere sed dui et, facilisis facilisis dolor. In hac habitasse platea dictumst. Donec pellentesque massa at tristique aliquet. Vestibulum ultricies nunc at
-        2.  Aliquam nisi felis, posuere sed dui et, facilisis facilisis dolor. In hac habitasse platea dictumst. Donec pellentesque massa at tristique aliquet. Vestibulum ultricies nunc at
-        3.  Aliquam nisi felis, posuere sed dui et, facilisis facilisis dolor. In hac habitasse platea dictumst. Donec pellentesque massa at tristique aliquet. Vestibulum ultricies nunc at
-        4.  Aliquam nisi felis, posuere sed dui et, facilisis facilisis dolor. In hac habitasse platea dictumst. Donec pellentesque massa at tristique aliquet. Vestibulum ultricies nunc at
-        5.  Aliquam nisi felis, posuere sed dui et, facilisis facilisis dolor. In hac habitasse platea dictumst. Donec pellentesque massa at tristique aliquet. Vestibulum ultricies nunc at
-        
+    -   #### Returning Visitor Goals
 
-    3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
-     
+        1. As an Developer             ||  It has a flow of functionality that is being properly understood by the user.
+        2. As a Publisher              ||  What authors & titles are frequently added to the site.        
+        3. As a User                   ||  Would like to check back and see what new titles are present.
 
--   #### Returning Visitor Goals
-
-    1. As a Returning Visitor, I want to find out more about  the organisations brand and social awareness
-
-        1. Would like to see alot of membership engagement and available content in the for Aliquam nisi felis, posuere sed dui et, facilisis facilisis dolor. In hac habitasse platea dictumst. Donec pellentesque massa at tristique aliquet. Vestibulum ultricies nunc atm of popular posts, blog posts, various articles, and newsfeeds
-      
-
-    2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-
-
-        1. The visitor can then  fill out a form on the page or are told that alternatively they can message the organisation on social media.
-        2. The footer contains links to the organisations Facebook, Twitter Reddit, Google, YouTube and Pinterest page as well as the organization's email.
-        3. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-        4. The personal information section is set up to autofill 
-
-    3. As a Returning Visitor, I want to find the links to various social media groups so that I can join and interact with others in the community.
-
-        1. Aliquam nisi felis, posuere sed dui et, facilisis facilisis dolor. In hac habitasse platea dictumst. Donec pellentesque massa at tristique aliquet. Vestibulum ultricies nunc at
-        2. Aliquam nisi felis, posuere sed dui et, facilisis facilisis dolor. In hac habitasse platea dictumst. Donec pellentesque massa at tristique aliquet. Vestibulum ultricies nunc at
-        
--   #### Frequent User Goals
-
-    1. As a Frequent User, I want to check to see if there are any newly added content to the site which furthers the interest of the business.
-
-        1. The user can use search components in the navigation bar and updates to the development of the site
-
-    2. As a Frequent User, I want to check to see if there are any new information as I now have access to an intranet site linked to Super Arenas.
-
-        1. The user would already be comfortable with the website layout and can easily click on links for further developments of the site
-
+    -   #### Frequent User Goals
+        1. As a Developer              ||  Would like to update the site by alerting users of new include:me book recommendations, via podcasts or online classroom environments, including YouTube, Google Meet..e.t.c
+        2. As a Publisher              ||  Cras vitae purus metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam s
+        3. As a User                   ||  What what kind of book titles are available, via genre,..i.e Sci Fi, Fantasy, e.t.c
 
 
 ### Further Testing
@@ -371,12 +288,8 @@ We continually tweak and adjust this template to help give you the best experien
 -   A large amount of testing was done to ensure that all pages were linking correctly.'#'was used where page links were not developed to their final resolution.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-
-
 ### Known Bugs
 
--  When switching from mobile view to desktop or tablet, the nav bar function remains extended if user forgets to toggle the menus
-    bar to close it in mobile screen sizes.????????????????????????????????????????????????????????
 
 ## Deployment - Intro
 
@@ -397,7 +310,7 @@ The site is deployed published at https://benjamin144.github.io/include:me/ from
 
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Benjamin144/Europes-Favorite-Arenas)
+<!--1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Benjamin144/includeme) -->
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
     - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
@@ -441,48 +354,30 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ## Credits
 
-### Code
-
 -   [https://courses.codeinstitute.net/courses] - Flask rudimentary code snippets used to initial Framework for Flask ongoing functionality
-
--   [Bootstrap4]https://startbootstrap.com/template/scrolling-nav: Bootstrap Library template used in static file, as a base for ongoing development, additional styling was my own influence to change the appearence of the site.
 
 -   [Stackoverflow)](https://stackoverflow.com/questions/19827605/change-bootstrap-navbar-collapse-breakpoint-without-using-less) : Change bootstrap navbar collapse breakpoint without using LESS
 
 -   [Perishable Press](https://perishablepress.com/a-killer-collection-of-global-css-reset-styles/) : Killer Collection of CSS Resets
 
--   [w3schools](https://www.w3schools.com/howto/howto_css_modals.asp) : code snippets for modal function.
-
--   [Stackoverflow](https://stackoverflow.com/questions/3059044/google-maps-js-api-v3-simple-multiple-marker-example) : code idea and snippets for google markers and info windows functionality.
-
--   [Daily Tuition](https://www.youtube.com/watch?v=CrSC1ZA9j0M) : Guide to creating jQuery driven interactive nav bar menu items
-
+-   [Stackoverflow](https://stackoverflow.com/questions/3059044/google-maps-js-api-v3-simple-multiple-marker-example) : code ideas and snippets 
 
 
 ### Content - Intro
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-
-### Content
-
--   Also credits to the Stack Overflow community for snippets 
-
--   
-
-### Media - Intro
-- The photos used in this site were obtained from ...
+ 
 ### Media
 
 -   [PngTree.com] Landing page image - https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUbPV-Qsd8yjhmg2SuONOILDtOlV_UhxVsZA&usqp=CAU - Technology Blue Background colour
 
-### Acknowledgements - Intro
-
-- I received inspiration for this project from X
 
 ### Acknowledgements
 
+-   I received inspiration for this project from The Code Institutes, Project Idea (3) - https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+DCP101+2017_T3/courseware/5a170081aab6478d881d96db05038a28/698b06ef0bd34c9fa300958e72747941/?child=first
+
 -   My Mentor Dick Vlaanderen for continuous helpful feedback.
 
--   Tutor support at Code Institute for their support.
+-   Tutor support at Code Institute for their technical support.
 
--   The Code Institute Slack community for their ongoing support.
+-   The Code Institute Slack community for their ongoing insight, discussions & emotional support.
 
