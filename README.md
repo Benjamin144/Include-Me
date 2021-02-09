@@ -4,7 +4,7 @@
 
 **This is my 3rd Milestone project covering: Data-Centric Development - Code Institute**
 
-# Welcome to Include Me Book Review
+# Welcome to Include Me Book Review & Logger
 
 ## Contents
 - [Introduction](#joe-roberts-Include:Me--Thirds-milestone-project)
@@ -92,23 +92,40 @@ As part of the process I am looking to use the 5 planes to work through how the 
 
 ## issues, that needed further development 
 
-- reducing white space around the site
-- responsiveness in mobile devices - search field
+- connecting PyMongo authentication - **resolved** by entering correct credentials and adjustments to line spacing issues
+- reducing white space around the site - **resolved** - used background image
+- responsiveness in mobile devices - search field - **resolved** - with mobile queries work around in style.css, global settings with materialize.min.css fixed scaling issues
+- Indices criteria between mongodb throws errors after hitting the edit button when logged into a profile. - **resolved** - by title.html npt being defined in app.py file
+- **Unresolved** - issues with incrementor throws error in this line of code. {% if titles|length > 0 %} 
+- **Unresolved** - unable to run successful validation for Jinja based code functions.
+- **unresolved** - unable to implment certain jquery/javascript code formula was quartic easing out - decelerating to zero velocity, for scrolling my page down conveniently.
+  I will try reviewing scripts that I might have not attempted to use. The issue was picked up when, I try to console.log function to the DOM. I have put an animated button in place to 
+  help navigate down the page for now. Hoever tht jquery works with the script.js file. 
+- **unresolved** - links from nav bar to activity pages
+- **unresolved** - search button missing, unable to use the faciliy whn logged into a profile account
+- **unresolved** - manage genres section button icon (change) is the incorrect terminology
+- **unresolved** - Screen load times are a bit laboured, I will attempt to resolve this issue with 'Lighthouse' testing
+
+    
+    
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 <p align="right">
   <a href="joseph-roberts-include:me-app---third-milestone-project">Back to Top :arrow_heading_up:</a> 
 </p>
 
-## Features
+### Existing Features -->
 
-Navigational elements remain through various screen sizes. Mobile view is vertically aligned.
+<!--    Include:Me logo (top left) allows the user to switch back to the homepage. (allows users X to achieve Y, by having them fill out Z)
+        Login - allows the user to enter a username and password and press a login button to their own profile below the landing page
+        Register - allows the user to enter a username and password and press a Register button to their own profile below the landing page
+        Animated button - allows the user quick access to the activity pages.
+        Other links to Logging in and registration can be found beneath the form
+        Additonal Footer for links to Social Media can be found towards the bottom right of the website
+        Button at bottom right can be used to switch back up the page to the Navbar *(TBA)
+        When logged in or registered a 'flash' message is presented to understand your profile.
+        When logged in as Admin as username you get more options to add or delete more genres to the site
 
-Corresponding indices criteria between mongodb and possible titles.html throws errors after hitting the edit button when logged into a profile. 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-<!-- ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
 
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
@@ -121,9 +138,13 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Features II
 
--   Responsive on all device sizes
-
--   Up vote system that outputs a like / dislike feature
+- Responsive on all mobile device sizes and screen sizes.
+- Added 'Popout feature to accordian review system.
+- Animated scroll down button for easier access to registration, log in, search, and editing criteria.
+- Arrow scroll up button for easier access to the navigational bar.
+- Code completely modified and repurposed to suit the needs of the UX requirement concerning displayed books.
+- Working connection to live MongoDB, where users can add their own record.
+-   Up vote system that outputs a like / dislike feature **tentative**
 
 ## Technologies Used
 
@@ -135,6 +156,11 @@ For each, provide its name, a link to its official site and a short sentence of 
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 -   [JS](https://en.wikipedia.org/wiki/JavaScript)
 -   [JQ](https://en.wikipedia.org/wiki/jQuery)
+-   [Python]
+-   [Jinja-Templating]
+-   [Flask]
+-   [MongoDb]
+-   [Heroku]
 
 
 ### Frameworks, Libraries & Programs Used
@@ -186,7 +212,15 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here. -->
 
 
-## Testing - Write up
+## Further Testing
+
+<!-- #Check site UX for navigational completeness - make sure links work - log links in readMe that are in development. 
+#Check site UI - Ensure ease of use (does the site make sense).
+#Check rating with lighthouse (screenshot results and use in readMe)
+#Check responsiveness on all devices
+#Check responsiveness on all web browsers
+#Clear bugs - reference, the Slack community, tutors & online support, i.e console log.
+#Run the code through (W3C) validators -->
 
 ## Gitpod set up  
 
@@ -227,8 +261,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 **December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/) **pass**
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/) **pass**
 
 
 ## lighthouse 
@@ -242,15 +276,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 
 
-## Further Testing
 
-<!-- #Check site UX for navigational completeness - make sure links work - log links in readMe that are in development. 
-#Check site UI - Ensure ease of use (does the site make sense).
-#Check rating with lighthouse (screenshot results and use in readMe)
-#Check responsiveness on all devices
-#Check responsiveness on all web browsers
-#Clear bugs - reference, the Slack community, tutors & online support, i.e console log.
-#Run the code through (W3C) validators -->
 
 ## Testing Errors - Struggling to get past these...type of error sample below:
 
@@ -351,6 +377,41 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ```
 
 Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
+## Connecting MongoDB ##
+
+Connect To my Cluster which is called 'myFirstCluster'
+Methods to connect your application to my cluster have been done though the URI method. The MongoShell and Compass methods are also available through the connect Modal.
+
+Further instructions can be found in thee MongoDB documentation on their website [https://cloud.mongodb.com/]
+
+my app runs with the env.py file but is ignored by the 'gitignore' file when being pushed to GitHub - production whilst in development stage is set to 'True' but the status will be changed on deploymening the live site
+
+My collections on the MongoDb are within [myFirstCluster], they are named under the database [include_me] and within that, there are a collection of fields inserted into documents named:
+[genres] [titles] [users]. I have developed the site around these parameters with a focus on genres, when researched, it seemed a popular choice to go with.
+
+## Connecting Heroku ##
+
+When I log into my Heroku account this project is named [include-me]. This app is successfully connected to [Python] with mnormal confirmation messages like:
+
+-----> Building on the Heroku-20 stack
+-----> Python app detected
+-----> No change in requirements detected, installing from cache
+-----> Installing pip 20.1.1, setuptools 47.1.1 and wheel 0.34.2
+-----> Installing SQLite3
+-----> Installing requirements with pip
+-----> Discovering process types
+       Procfile declares types -> web
+-----> Compressing...
+       Done: 61.5M
+-----> Launching...
+       Released v24
+       https://include-me.herokuapp.com/ deployed to Heroku
+
+My account is also connected to [https://github.com/Benjamin144/Include-Me] my Github page. When I navigate the the 'open app' buton in Heroku, the app loads normally without any problems.
+
+
+
 
 ## Credits
 
