@@ -7,7 +7,7 @@ html{
 
 
 #sec-2{
-    min-height: 50vh;
+    min-height: 10vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -91,6 +91,9 @@ html{
     }
 }
 
+a {
+    color: #fff !important;
+}
 
 h2{
     position: relative;
@@ -122,7 +125,9 @@ h2{
     line-height: 42px;
 }
 
-
+.page-footer {
+    background-color: #01579b;
+}
 
 /*----------/------- Viewport less than or equal to 750px -------/------------*/
 

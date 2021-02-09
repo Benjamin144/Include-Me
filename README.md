@@ -98,11 +98,11 @@ As part of the process I am looking to use the 5 planes to work through how the 
 - Indices criteria between mongodb throws errors after hitting the edit button when logged into a profile. - **resolved** - by title.html npt being defined in app.py file
 - **Unresolved** - issues with incrementor throws error in this line of code. {% if titles|length > 0 %} 
 - **Unresolved** - unable to run successful validation for Jinja based code functions.
-- **unresolved** - unable to implment certain jquery/javascript code formula was quartic easing out - decelerating to zero velocity, for scrolling my page down conveniently.
+- **unresolved** - unable to implement certain jquery/javascript code formula was quartic easing out - decelerating to zero velocity, for scrolling my page down conveniently.
   I will try reviewing scripts that I might have not attempted to use. The issue was picked up when, I try to console.log function to the DOM. I have put an animated button in place to 
   help navigate down the page for now. Hoever tht jquery works with the script.js file. 
 - **unresolved** - links from nav bar to activity pages
-- **unresolved** - search button missing, unable to use the faciliy whn logged into a profile account
+- Search button missing, unable to use the faciliy whn logged into a profile account - code was commented out to work on
 - **unresolved** - manage genres section button icon (change) is the incorrect terminology
 - **unresolved** - Screen load times are a bit laboured, I will attempt to resolve this issue with 'Lighthouse' testing
 
