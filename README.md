@@ -410,9 +410,6 @@ When I log into my Heroku account this project is named [include-me]. This app i
 
 My account is also connected to [https://github.com/Benjamin144/Include-Me] my Github page. When I navigate the the 'open app' buton in Heroku, the app loads normally without any problems.
 
-
-
-
 ## Credits
 
 -   [https://courses.codeinstitute.net/courses] - Flask rudimentary code snippets used to initial Framework for Flask ongoing functionality
