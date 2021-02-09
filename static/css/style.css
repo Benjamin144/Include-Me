@@ -46,11 +46,50 @@
     position: absolute;
     left: 50%;
     bottom: -120%;
+    border-radius: 44%;
+    cursor: pointer;
+}
+
+.scroll-down::before,
+.scroll-down::after{
+    content: '';
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    border: 2px solid black;
+    height: 10px;
+    width: 10px;
+    transform: translate(-50%, -90%) rotate(45deg);
+    border-top: transparent;
+    border-left: transparent;
+    animation: scroll-down 1s ease-in-out infinite;
+
+}
+
+.scroll-down::after{
+    top: 20%;
+    animation-delay: .3s;
+}
+
+@keyframes scroll-down{
+    0%{
+     opacity: 0;
+    }
+    30%{
+     opacity: 1;
+    }
+    60%{
+     opacity: 1;   
+    }
+    100%{
+     opacity: 0;
+     top: 90%;
+    }
 }
 
 
 h2{
-    position:relative;
+    position: relative;
     padding-bottom: 10px;
 
 }
