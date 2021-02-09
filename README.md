@@ -45,7 +45,7 @@ Edit function broken
 
 ## Demo
 
-<h2 align="center"><img src="https://github.com/Benjamin144/include:me/blob/master/tab-land.PNG"></h2>
+<h2 align="center"><img src="https://github.com/Benjamin144/Include-Me/blob/master/IncludeMe.pdf"></h2>
 
 ## User Experience (UX) - Intro
 
@@ -54,9 +54,9 @@ C.R.U.D is used to navigate through the website with notifications to confirm th
 
 ### Wireframes:
 
-<!-- [Mobile View](https://github.com/Benjamin144/include:me/blob/master/Mobile%20View.png)
-[Tablet View](https://github.com/Benjamin144/include:me/blob/master/Tablet%20View.png)
-[DeskTop View](https://github.com/Benjamin144/include:me/blob/master/Desktop%20View.png) -->
+[Mobile-View]      https://github.com/Benjamin144/Include-Me/blob/master/IncludeMe-mobile%20view.pdf
+[Tablet-View]      https://github.com/Benjamin144/Include-Me/blob/master/IncludeMe-tablet%20view.pdf
+[DeskTop-View]     https://github.com/Benjamin144/Include-Me/blob/master/IncludeMe-desktop%20view.pdf
 
 ### Strategy
 
