@@ -1,9 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Include Me</title>
+</head>
+<body>
+    
+</body>
+</html>
 <!-- Attributed code creation and style to Tim Nelson (Code Institute Devs however code has been rewritten by myself to refect the unique database management and functionality for this site-->
 <!-- https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+DCP101+2017_T3/courseware/196c000dd670458cafc7b2dc9d4a8245/016a25dab553425ba26288263c0c3a6e/?child=first-->
 {% extends "base.html" %}
 {% block content %}
 
-    <h3 class="light-blue-text text-darken-4 center-align">What Are You Reading?</h3>
+    <h3 class="light-blue-text text-darken-4 center-align">Search for Awesome Books</h3>
 
     <div class="row card-panel grey lighten-5">
         <form action="{{ url_for('search') }}" method="post" class="col s12">
@@ -31,7 +42,7 @@
                 <div class="col s3">
                     <i class="fas fa-caret-down"></i>
                     {% if session.user|lower == title.recomended_by|lower %}
-                        <a href="{{ url_for('add_title', title_id=title._id) }}" class="btn-small green accent-4">Done</a>
+                        <a href="{{ url_for('add_title', title_id=title._id) }}" class="btn-small green accent-4">Add New Title</a>
                     {% endif %}
                 </div>
                 <div class="col s9">
