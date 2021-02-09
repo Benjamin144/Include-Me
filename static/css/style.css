@@ -1,7 +1,16 @@
-* {
-    margin: 0;
-    padding: 0;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+
+#sec-2{
+    min-height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
 }
+
 
 .home {
     height: 100vh;
@@ -14,7 +23,7 @@
     display: flex;
     align-items: center;
     justify-content:center;
-    box-shadow: 0 0 10px #8C6729, 0 0 0 15px;
+    box-shadow: 0 0 10px #8C6729, 0 0 0 10px;
     z-index: -1;
 }
 
@@ -25,8 +34,20 @@
     text-align: center;
     border-radius: 4px;
     position: relative;
+    
 
 }
+
+.scroll-down{
+    height: 50px;
+    width: 30px;
+    border: 2px solid black;
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    bottom: -120%;
+}
+
 
 h2{
     position:relative;
@@ -35,9 +56,9 @@ h2{
 }
 
 .yellow-text {
-    font-stretch: ultra-expanded;
-    font-weight: 900;
-    line-height: 150px;
+    font-stretch: semi-condensed;
+    font-weight: 800;
+    line-height: 50%;
 
 }
 
@@ -59,4 +80,71 @@ h2{
 }
 
 
+
+/*----------/------- Viewport less than or equal to 750px -------/------------*/
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+
+@media only screen 
+   and (max-width : 360px) 
+   and (max-height : 598px) {
+
+       h1 {
+       font-size: 3.5rem;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+       }
+
+@media (max-width: 575.98px) {
+    h1{
+        font-size: 3.5rem;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+}
+
+@media (min-width: 768px) {
+  h1{
+    font-size: 3.5rem;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1000px) {
+   h1{
+       display: none !important;
+   }
+}
+
+@media only screen 
+   and (max-width : 640px) 
+   and (max-height : 1136px) {
+  h1{
+       font-size: 3.5rem;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+}
+   }
+
+ p { 
+    margin: 0!important; 
+    line-height: 40px; 
+    }
+    
+@media only screen and (min-width: 767px) {
+h1 {
+    margin-left: 0!important;
+}    
+
+}
+
+h1 {
+    margin-left: 1%!important;
+    width: 49%!important;
+    }
+
+   }
 

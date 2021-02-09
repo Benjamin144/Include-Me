@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,12 +12,14 @@
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!--<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">    
 
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css">
     <!-- Attributed code creation and style to Tim Nelson (Code Institute Devs however code has been rewritten by myself to refect the unique database management and functionality for this site-->
     <!-- https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+DCP101+2017_T3/courseware/196c000dd670458cafc7b2dc9d4a8245/016a25dab553425ba26288263c0c3a6e/?child=first-->
-    
+
     {% block styles %}
     {% endblock %}
     <title>Include:Me</title>
@@ -47,26 +50,24 @@
         </div>
     </nav>
 
-   
- 
-
-
-    <div class="section white">
-        <div class="home">
-            <div class="row container">
-                <div class="col-lg-12">
-                    <a href="scrolldown">
-                    <div>
-                        <h1 class="yellow-text accent-4 center-align">Include:Me</h1>
+    <div class="home">
+        <div class="row container">
+            <div class="col-lg-12">
+                <section id="sec-1">
+                    <div class="container">
+                        <h2 class="yellow-text accent-4 center-align">Include:Me</h2>
+                        <div class="scroll-down">
+                        </div>
                     </div>
-                            </a>
-                            
-                        
-                        <p class="#fdd835 yellow-text darken-1 center-align">A book recommendation website</p> 
+                </section>
+                <section>
+                    <div class="container">
+                        <p class="lead #fdd835 yellow-text darken-1 center-align">A book recommendation website</p>
                     </div>
-                </div>
+                </section>
             </div>
         </div>
+    </div>
 
     <!-- mobile sidenav -->
     <ul class="sidenav" id="mobile-demo">
@@ -88,13 +89,13 @@
     </ul>
 
 
-    <section>
-        <!-- flash messages JS Scoll section 2-->
+    <section id="sec-2">
+        <!-- flash messages JS Scroll section 2-->
         {% with messages = get_flashed_messages() %}
         {% if messages %}
         {% for message in messages %}
-        <div class="row flashes">
-            <h4 class="light-blue lighten-4 center-align">{{ message }}</h4> 
+        <div class="row-flashes">
+            <h4 class="light-blue lighten-4 center-align">{{ message }}</h4>
         </div>
         {% endfor %}
         {% endif %}
