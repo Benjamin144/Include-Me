@@ -116,6 +116,9 @@ def add_title():
             "title_name": request.form.get("title_name"),
             "authors_description": request.form.get("authors_description"),
             "published_by": request.form.get("published_by"),
+            "child_friendly": request.form.get("child_friendly"),
+            "year_dated": request.form.get("year_dated"),
+            "page_numbers": request.form.get("page_numbers"),
             "is_urgent": is_urgent,
             "due_date": request.form.get("due_date"),
             "created_by": session["user"]
@@ -138,6 +141,9 @@ def edit_title(title_id):
             "title_name": request.form.get("title_name"),
             "authors_description": request.form.get("authors_description"),
             "published_by": request.form.get("published_by"),
+            "child_friendly": request.form.get("child_friendly"),
+            "year_dated": request.form.get("year_dated"),
+            "page_numbers": request.form.get("page_numbers"),
             "is_urgent": is_urgent,
             "due_date": request.form.get("due_date"),
             "created_by": session["user"]

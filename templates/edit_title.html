@@ -19,7 +19,7 @@
 
     <div class="row card-panel grey lighten-5">
         <form class="col s12" method="POST" action="{{ url_for('edit_title', title_id=title._id) }}">
-            <!-- Genre selection -->
+            <!-- Genre selection CI((my code) -->
 			<div class="row">
 				<div class="input-field col s12">
                     <i class="fas fa-folder-open prefix light-blue-text text-darken-4"></i>
@@ -36,7 +36,7 @@
 					<label for="genre_name">Title Genre</label>
 				</div>
 			</div>
-            <!-- title name -->
+            <!-- title name CI((my code) -->
             <div class="row">
                 <div class="input-field col s12">
                     <i class="fas fa-pencil-alt prefix light-blue-text text-darken-4"></i>
@@ -45,7 +45,7 @@
                     <label for="title_name">Title Name</label>
                 </div>
             </div>
-            <!-- title description -->
+            <!-- title description customized CI((my code) -->
             <div class="row">
                 <div class="input-field col s12">
                     <i class="fas fa-align-left prefix light-blue-text text-darken-4"></i>
@@ -56,7 +56,7 @@
                     <label for="authors_description">Author Description</label>
                 </div>
             </div>
-                        <!-- publisher description (mycode)-->
+                        <!-- publisher description (my code) -->
             <div class="row">
                 <div class="input-field col s12">
                     <i class="fas fa-align-left prefix light-blue-text text-darken-4"></i>
@@ -67,7 +67,40 @@
                     <label for="published_by">Publisher</label>
                 </div>
             </div>
-            <!-- due date selector -->
+                          <!-- age description (mycode) -->
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="fas fa-align-left prefix light-blue-text text-darken-4"></i>
+                    <textarea id="child_friendly" name="child_friendly" minlength="5"
+                        maxlength="200" class="materialize-textarea validate" required>
+                        {{- child.child_friendly -}}
+                    </textarea>
+                    <label for="child_friendly">child_friendly?</label>
+                </div>
+            </div>
+                          <!-- year dated (mycode) -->
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="fas fa-align-left prefix light-blue-text text-darken-4"></i>
+                    <textarea id="year_dated" name="year_dated" minlength="5"
+                        maxlength="200" class="materialize-textarea validate" required>
+                        {{- year.year_dated -}}
+                    </textarea>
+                    <label for="year_dated">Year of Publication</label>
+                </div>
+            </div>
+                          <!-- number of pages (mycode) -->
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="fas fa-align-left prefix light-blue-text text-darken-4"></i>
+                    <textarea id="page_numbers" name="page_numbers" minlength="4"
+                        maxlength="200" class="materialize-textarea validate" required>
+                        {{- page.page_numbers -}}
+                    </textarea>
+                    <label for="page_numbers">Number of Pages</label>
+                </div>
+            </div>
+            <!-- due date selector CI((my code) -->
             <div class="row">
                 <div class="input-field col s12">
                     <i class="fas fa-calendar-alt prefix light-blue-text text-darken-4"></i>
@@ -76,7 +109,7 @@
                     <label for="due_date">Recommend it?</label>
                 </div>
             </div>
-            <!-- is urgent toggle -->
+            <!-- is urgent toggle CI((my code) -->
 			<div class="row">
 				<div class="input-field col s12">
 					<div class="switch">
@@ -93,10 +126,10 @@
 					</div>
 				</div>
 			</div>
-            <!-- submit button -->
+            <!-- submit button CI((my code) -->
             <div class="row">
                 <div class="col s12 center-align">
-                    <!-- cancel button -->
+                    <!-- cancel button CI((my code) -->
                     <a href="{{ url_for('get_titles') }}" class="btn-large red text-shadow">
                         Cancel <i class="fas fa-times-circle right"></i>
                     </a>
