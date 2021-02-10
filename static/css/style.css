@@ -184,6 +184,43 @@ h2 {
     background-color: #01579b;
 }
 
+
+
+
+
+
+
+
+
+
+.nav-extended .nav-wrapper li a:hover, .nav-extended .nav-wrapper {
+   
+    text-decoration: none !important;
+    font-weight: 700 !important;
+    font-size: 100%;
+    color: #F7EC36 !important;
+    border-style: 1px solid transparent !important;
+    transition: 0.7s !important;
+    -webkit-transition: all .7s ease-in-out !important;
+    -moz-transition: all .7s ease-in-out !important;
+    -o-transition: all .7s ease-in-out !important;
+
+}
+
+.nav-extended li a:hover{
+    transition: color 0.7s !important;
+}
+
+
+
+
+
+
+
+
+
+
+
 /*----------/------- Viewport less than or equal to 750px -------/------------*/
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
