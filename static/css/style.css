@@ -19,7 +19,7 @@ html{
 .home {
     height: 100vh;
     width: 100vw;
-    background: url('../img/6607.jpg') no-repeat center center fixed;
+    background: url('../img/6607.jpg') no-repeat center center fixed; /* <a href="http://www.freepik.com">Designed by pch.vector / Freepik</a>*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

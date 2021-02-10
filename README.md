@@ -77,12 +77,12 @@ Materialises and Matierial Design is used as the front end display and MongoDB i
 
 4) An upvoting mechanism to be added (tentative)
 
-As part of the process I am looking to use the 5 planes to work through how the structure of this site can be organised and made as intuitive as possible. At this point the site is under development could be subject to change in appearence.
+At this point the site is under development could be subject to change in appearence.
 
 ### Skeleton 
 
-- Multi page design, main home page presents functional features straight away
-- Typography - I have used light font themes
+- Single page design, based on jinja templating because the site is connected to MongoD
+- Typography - I have used Monserrat
 - Imagery - (TBA)
  
 ### Surface 
@@ -96,19 +96,12 @@ As part of the process I am looking to use the 5 planes to work through how the 
 - reducing white space around the site - **resolved** - used background image
 - responsiveness in mobile devices - search field - **resolved** - with mobile queries work around in style.css, global settings with materialize.min.css fixed scaling issues
 - Indices criteria between mongodb throws errors after hitting the edit button when logged into a profile. - **resolved** - by title.html npt being defined in app.py file
+- Search button missing, unable to use the faciliy whn logged into a profile account - code was commented out to work on - **resolved**
+- **Unresolved** - label for Author, child friendly, date published, number of pages and publisher details missing.
 - **Unresolved** - issues with incrementor throws error in this line of code. {% if titles|length > 0 %} 
 - **Unresolved** - unable to run successful validation for Jinja based code functions.
-- **unresolved** - unable to implement certain jquery/javascript code formula was quartic easing out - decelerating to zero velocity, for scrolling my page down conveniently.
-  I will try reviewing scripts that I might have not attempted to use. The issue was picked up when, I try to console.log function to the DOM. I have put an animated button in place to 
-  help navigate down the page for now. Hoever tht jquery works with the script.js file. 
-- **unresolved** - links from nav bar to activity pages
-- Search button missing, unable to use the faciliy whn logged into a profile account - code was commented out to work on
-- **unresolved** - manage genres section button icon (change) is the incorrect terminology
+- **unresolved** - links from nav bar to activity pages, require link offset solution.
 - **unresolved** - Screen load times are a bit laboured, I will attempt to resolve this issue with 'Lighthouse' testing
-
-    
-    
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 <p align="right">
   <a href="joseph-roberts-include:me-app---third-milestone-project">Back to Top :arrow_heading_up:</a> 
@@ -116,16 +109,17 @@ You should also mention in this section any interesting bugs or problems you dis
 
 ### Existing Features -->
 
-<!--    Include:Me logo (top left) allows the user to switch back to the homepage. (allows users X to achieve Y, by having them fill out Z)
-        Login - allows the user to enter a username and password and press a login button to their own profile below the landing page
-        Register - allows the user to enter a username and password and press a Register button to their own profile below the landing page
+<!--    Include:Me logo (top left) allows the user to switch back to the homepage. 
+        Login - allows the user to enter a username and password and press a login button to view profile below the landing page
+        Register - allows the user to enter a username and password below the landing page.
         Animated button - allows the user quick access to the activity pages.
         Other links to Logging in and registration can be found beneath the form
-        Additonal Footer for links to Social Media can be found towards the bottom right of the website
-        Button at bottom right can be used to switch back up the page to the Navbar *(TBA)
+        A footer for links to social media can be found on the left side continually while scrolling up and down the page.
+        A button on the bottom right can be used to roll the page back up the page to the start.
         When logged in or registered a 'flash' message is presented to understand your profile.
         When logged in as Admin as username you get more options to add or delete more genres to the site
-
+        When logged in the user can add book titles to their profile, by choosing genre, and entering details of the title.
+        Users have access to information on books titles posted aand can add book titles themselves
 
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
@@ -134,7 +128,7 @@ In addition, you may also use this section to discuss plans for additional featu
 ### Features Left to Implement
 - A visual representation of the Book
 - A downloadable sample from partnering website
-- A buy book link to oan external ecommerce website -->
+- A buy book link to oan external ecommerce website 
 
 ## Features II
 
@@ -144,12 +138,9 @@ In addition, you may also use this section to discuss plans for additional featu
 - Arrow scroll up button for easier access to the navigational bar.
 - Code completely modified and repurposed to suit the needs of the UX requirement concerning displayed books.
 - Working connection to live MongoDB, where users can add their own record.
--   Up vote system that outputs a like / dislike feature **tentative**
+-  Up vote system that outputs a like / dislike feature **tentative**
 
 ## Technologies Used
-
-<!--In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. 
-For each, provide its name, a link to its official site and a short sentence of why it was used. -->
 
 -   [JQuery](https://jquery.com) 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
@@ -214,13 +205,14 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Further Testing
 
-<!-- #Check site UX for navigational completeness - make sure links work - log links in readMe that are in development. 
+
+#Check site UX for navigational completeness - make sure links work - log links in readMe that are in development. 
 #Check site UI - Ensure ease of use (does the site make sense).
 #Check rating with lighthouse (screenshot results and use in readMe)
 #Check responsiveness on all devices
 #Check responsiveness on all web browsers
 #Clear bugs - reference, the Slack community, tutors & online support, i.e console log.
-#Run the code through (W3C) validators -->
+#Run the code through (W3C) validators 
 
 ## Gitpod set up  
 
@@ -269,10 +261,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   For final testing
 
-<!--[Home pages](https://github.com/Benjamin144/include:me/blob/master/Homepage.PNG)
+[   Home pages](https://github.com/Benjamin144/include:me/blob/master/Homepage.PNG)
 -   [About Pages](https://github.com/Benjamin144/include:me/blob/master/About.PNG)
 -   [Map Pages](https://github.com/Benjamin144/include:me/blob/master/Map.PNG)
--   [Subsribe Pages](https://github.com/Benjamin144/include:me/blob/master/subscribe.PNG) -->
+-   [Subsribe Pages](https://github.com/Benjamin144/include:me/blob/master/subscribe.PNG)
 
 
 
@@ -280,7 +272,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ## Testing Errors - Struggling to get past these...type of error sample below:
 
-    **Fixed     TemplateNotFound error even though template file exists, there was a formatting issue with the HTML file causing the app decorator to malfunction.
+**Fixed**       TemplateNotFound error even though template file exists, there was a formatting issue with the HTML file causing the app decorator to malfunction.
                 I resolved this by acrediting the formating from https://github.com/Code-Institute-Solutions/FlaskFramework/blob/master/01-GettingStarted/03-routing/templates/contact.html
                 which fixed the error. I also tried a code line, app = Flask(__name__, template_folder='template'), as an experiment to test if the app.py could find the html file, but that didn't work.
                 https://stackoverflow.com/questions/23327293/flask-raises-templatenotfound-error-even-though-template-file-exists
@@ -336,7 +328,8 @@ The site is deployed published at https://benjamin144.github.io/include:me/ from
 
 The project was deployed to GitHub Pages using the following steps...
 
-<!--1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Benjamin144/includeme) -->
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Benjamin144/includeme)
+
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
     - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
@@ -394,17 +387,17 @@ My collections on the MongoDb are within [myFirstCluster], they are named under 
 
 When I log into my Heroku account this project is named [include-me]. This app is successfully connected to [Python] with mnormal confirmation messages like:
 
------> Building on the Heroku-20 stack
------> Python app detected
------> No change in requirements detected, installing from cache
------> Installing pip 20.1.1, setuptools 47.1.1 and wheel 0.34.2
------> Installing SQLite3
------> Installing requirements with pip
------> Discovering process types
+Building on the Heroku-20 stack
+Python app detected
+ No change in requirements detected, installing from cache
+ Installing pip 20.1.1, setuptools 47.1.1 and wheel 0.34.2
+ Installing SQLite3
+ Installing requirements with pip
+ Discovering process types
        Procfile declares types -> web
------> Compressing...
+Compressing...
        Done: 61.5M
------> Launching...
+Launching...
        Released v24
        https://include-me.herokuapp.com/ deployed to Heroku
 
@@ -428,7 +421,7 @@ My account is also connected to [https://github.com/Benjamin144/Include-Me] my G
  
 ### Media
 
--   [PngTree.com] Landing page image - https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUbPV-Qsd8yjhmg2SuONOILDtOlV_UhxVsZA&usqp=CAU - Technology Blue Background colour
+-   [FreePik.com] Landing page image - <a href="http://www.freepik.com">Designed by pch.vector / Freepik</a>
 
 
 ### Acknowledgements
