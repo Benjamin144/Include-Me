@@ -30,7 +30,7 @@
 
 
 ## Introduction
-This is a book review and recommendation site. The web application enables the user to view and review books that they would personally recommend to other book readers.
+This is a book review and recommendation site. The web application enables the user to log and review book tiles they would recommend others to read.
 
 ## The learning outcomes
 Used Jinja for writing less code. MongoDb to create a database of information and Heroku to deploy the site.
