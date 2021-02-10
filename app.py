@@ -106,6 +106,7 @@ def logout():
     return redirect(url_for("login"))
 
 
+# I have recoded and added mu own lines of code here
 @app.route("/add_title", methods=["GET", "POST"])
 def add_title():
     if request.method == "POST":
@@ -114,6 +115,7 @@ def add_title():
             "genre_name": request.form.get("genre_name"),
             "title_name": request.form.get("title_name"),
             "authors_description": request.form.get("authors_description"),
+            "published_by": request.form.get("published_by"),
             "is_urgent": is_urgent,
             "due_date": request.form.get("due_date"),
             "created_by": session["user"]
@@ -126,6 +128,7 @@ def add_title():
     return render_template("add_title.html", genres=genres)
 
 
+# I have recoded and added mu own lines of code here
 @app.route("/edit_title/<title_id>", methods=["GET", "POST"])
 def edit_title(title_id):
     if request.method == "POST":
@@ -134,6 +137,7 @@ def edit_title(title_id):
             "genre_name": request.form.get("genre_name"),
             "title_name": request.form.get("title_name"),
             "authors_description": request.form.get("authors_description"),
+            "published_by": request.form.get("published_by"),
             "is_urgent": is_urgent,
             "due_date": request.form.get("due_date"),
             "created_by": session["user"]

@@ -35,11 +35,12 @@
     </div>
 
     {% if titles|length > 0 %}
+
        <ul class="collapsible popout">
         {% for title in titles %}
         <li>
             <div class="collapsible-header #90caf9 blue lighten-3">  
-                <div class="col s3">
+                
                     <i class="fas fa-caret-down"></i>
                     {% if session.user|lower == title.recomended_by|lower %}
                         <a href="{{ url_for('add_title', title_id=title._id) }}" class="btn-small green accent-4">Add</a>
@@ -52,10 +53,12 @@
                             data-position="right" data-tooltip="Recommended by user"></i>
                             </div>
                     {% endif %}  
-                </div>
+         
             <div class="collapsible-body">
                 <strong>{{ title.genre_name }}</strong>
                 <p>{{ title.title_description }}</p>
+                <p>{{ title.authors_description }}</p> <!-- Additional scripting added by me wired back to MongoDB--> 
+                <p>{{ title.publishers_description }}</p> <!-- Additional scripting added by me wired back to MongoDB--> 
                 <p><em>by: {{ title.created_by }}</em></p>
             </div>
         </li>

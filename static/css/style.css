@@ -185,14 +185,6 @@ h2 {
 }
 
 
-
-
-
-
-
-
-
-
 .nav-extended .nav-wrapper li a:hover, .nav-extended .nav-wrapper {
    
     text-decoration: none !important;
@@ -210,16 +202,6 @@ h2 {
 .nav-extended li a:hover{
     transition: color 0.7s !important;
 }
-
-
-
-
-
-
-
-
-
-
 
 /*----------/------- Viewport less than or equal to 750px -------/------------*/
 

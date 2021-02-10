@@ -56,13 +56,24 @@
                     <label for="authors_description">Author Description</label>
                 </div>
             </div>
+                        <!-- publisher description (mycode)-->
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="fas fa-align-left prefix light-blue-text text-darken-4"></i>
+                    <textarea id="published_by" name="published_by" minlength="5"
+                        maxlength="200" class="materialize-textarea validate" required>
+                        {{- published.published_by -}}
+                    </textarea>
+                    <label for="published_by">Publisher</label>
+                </div>
+            </div>
             <!-- due date selector -->
             <div class="row">
                 <div class="input-field col s12">
                     <i class="fas fa-calendar-alt prefix light-blue-text text-darken-4"></i>
                     <input id="due_date" name="due_date" type="text"
                         value="{{ title.due_date }}" class="datepicker validate" required>
-                    <label for="due_date">Read This Book By!</label>
+                    <label for="due_date">Recommend it?</label>
                 </div>
             </div>
             <!-- is urgent toggle -->
