@@ -49,10 +49,10 @@
                     <strong>{{ title.title_name }}</strong> : {{ title.due_date }}
                     {% if title.is_urgent == "on" %}
                         <i class="fas fa-exclamation-circle light-blue-text text-lighten-2 tooltipped"
-                            data-position="right" data-tooltip="UP VOTE NOW!"></i>
-                    {% endif %}
+                            data-position="right" data-tooltip="Recommended by user"></i>
+                            </div>
+                    {% endif %}  
                 </div>
-            </div>
             <div class="collapsible-body">
                 <strong>{{ title.genre_name }}</strong>
                 <p>{{ title.title_description }}</p>
