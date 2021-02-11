@@ -55,8 +55,8 @@ C.R.U.D is used to navigate through the website with notifications to confirm th
 ### Wireframes:
 
 [Mobile-View]      https://github.com/Benjamin144/Include-Me/blob/master/IncludeMe-mobile%20view.pdf
-[Tablet-View]      https://github.com/Benjamin144/Include-Me/blob/master/IncludeMe-tablet%20view.pdf
-[DeskTop-View]     https://github.com/Benjamin144/Include-Me/blob/master/IncludeMe-desktop%20view.pdf
+[Tablet-View]     https://github.com/Benjamin144/Include-Me/blob/master/IncludeMe-tablet%20view.pdf
+[DeskTop-View]    https://github.com/Benjamin144/Include-Me/blob/master/IncludeMe-desktop%20view.pdf
 
 ### Strategy
 
@@ -218,14 +218,6 @@ At the time of final testing I was unable to get lighthouse to function but I ha
 - [MobileTesting]   https://github.com/Benjamin144/Include-Me/blob/master/mobileView.jpg
 - [DesktopTesting]  https://github.com/Benjamin144/Include-Me/blob/master/deskTopView.jpg
 
--   For final testing
-
-[   Home pages](https://github.com/Benjamin144/include:me/blob/master/Homepage.PNG)
--   [About Pages](https://github.com/Benjamin144/include:me/blob/master/About.PNG)
--   [Map Pages](https://github.com/Benjamin144/include:me/blob/master/Map.PNG)
--   [Subsribe Pages](https://github.com/Benjamin144/include:me/blob/master/subscribe.PNG)
-
-
 ## Testing Errors - Struggling to get past these...type of error sample below:
 
 **Fixed**       TemplateNotFound error even though template file exists, there was a formatting issue with the HTML file causing the app decorator to malfunction.
@@ -279,7 +271,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ## Deployment
 
-The site is deployed published at https://benjamin144.github.io/include:me/ from my GitHub Pages
+The site is deployed published at https://include-me.herokuapp.com/ from my Herokuapp
 
 ### GitHub Pages
 
