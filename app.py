@@ -73,8 +73,8 @@ def login():
                         return redirect(url_for(
                             "profile", username=session["user"]))
             else:
-                # invalid password match
-                flash("Something went wrong please check your Username and/or Password")
+                # invalid password dosn't exist
+                flash("Please check your Username and/or Password")
                 return redirect(url_for("login"))
 
         else:
@@ -87,7 +87,7 @@ def login():
 
 @app.route("/profile/<username>", methods=["GET", "POST"])
 def profile(username):
-    # grab the session user's username from db
+    # session user's username taken from mongodb
     username = mongo.db.users.find_one(
         {"username": session["user"]})["username"]
 
@@ -99,7 +99,7 @@ def profile(username):
 
 @app.route("/logout")
 def logout():
-    # remove user from session cookie
+    # cookie session removed
     flash("See you soon!")
     session.pop("user")
     return redirect(url_for("login"))
