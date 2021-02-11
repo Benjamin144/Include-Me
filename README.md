@@ -43,7 +43,7 @@ The content structure for displaying some requested criteria from the MongoDB in
 
 ## Demonstration
 
-<h2 class = align-center><img src=https://include-me.herokuapp.com/></h2>
+<h2 class = align-center><img src="https://github.com/Benjamin144/Include-Me/blob/master/Includeme2.pdf"></h2>
 
 ## User Experience (UX) - Intro
 
