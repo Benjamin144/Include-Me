@@ -309,20 +309,18 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 5. Change the current working directory to the location where you want the cloned directory to be made.
 6. Type `git clone`, and then paste the URL you copied in Step 3.
 
-```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-```
+
+ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
 
 7. Press Enter. Your local clone will be created.
 
-```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `CI-Clone`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
-```
+
+ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+Cloning into `CI-Clone`...
+
+ Unpacking objects: 100% (10/10), done.
+
 
 Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
@@ -380,9 +378,6 @@ My account is also connected to [https://github.com/Benjamin144/Include-Me] my G
 
 -   I received inspiration for this project from The Code Institutes, Project Idea (3) - https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+DCP101+2017_T3/courseware/5a170081aab6478d881d96db05038a28/698b06ef0bd34c9fa300958e72747941/?child=first
     The concept of having the website perform in such a way was a result of seeing book readers deep interest in this lifestyle.
-
 -   My Mentor Dick Vlaanderen for continuous helpful feedback.
-
 -   Tutor support at Code Institute for their technical support.
-
 -   The Code Institute Slack community for their ongoing insight, discussions & emotional support.
