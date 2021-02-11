@@ -376,7 +376,7 @@ My account is also connected to [https://github.com/Benjamin144/Include-Me] my G
 
 ### Acknowledgements
 
--   I received inspiration for this project from The Code Institutes, Project Idea (3) - https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+DCP101+2017_T3/courseware/5a170081aab6478d881d96db05038a28/698b06ef0bd34c9fa300958e72747941/?child=first
+-   I received inspiration for this project from The Code Institutes, Project Idea (3).
     The concept of having the website perform in such a way was a result of seeing book readers deep interest in this lifestyle.
 -   My Mentor Dick Vlaanderen for continuous helpful feedback.
 -   Tutor support at Code Institute for their technical support.
