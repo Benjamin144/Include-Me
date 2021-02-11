@@ -41,9 +41,9 @@ Make the site secure - by using Log in - Admin/User securtity.
 ## Current Issues
 The content structure for displaying some requested criteria from the MongoDB in the frontend "materialize' accordion framework. 
 
-## Demo
+## Demonstration
 
-<h2 align="center"><img src="https://github.com/Benjamin144/Include-Me/blob/master/Includeme2.pdf"></h2>
+<h2 class = align-center><img src="https://github.com/Benjamin144/Include-Me/blob/master/Includeme2.pdf"></h2>
 
 ## User Experience (UX) - Intro
 
