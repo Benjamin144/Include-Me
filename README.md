@@ -87,7 +87,7 @@ Materialises and Matierial Design is used as the front end display and MongoDB i
 - Simple link based navbar and buttons across a white background, with the blue and footer colour subject to change (tentative).
 - Nav Icons to Social media minimised into a single button as not to distract and navigational button in footer to scroll back to the top of the page. 
 
-#### issues, that needed further development 
+#### Issues, that needed further development 
 
 - connecting PyMongo authentication. - **resolved** by entering correct credentials and adjustments to line spacing issues.
 - reducing white space around the site. - **resolved** - used background image.
@@ -179,8 +179,11 @@ After numerous testing it is of my opinion that the operations functions well th
 
 ## Further Testing
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/Benjamin144/Include-Me/blob/master/add_genreWC3%202021-02-10%20224757.jpg) **pass**
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/Benjamin144/Include-Me/blob/master/cssWC3Screenshot%202021-02-10%20232114.jpg) **pass**
+-   [W3C Markup ValidatorHTML][Results](https://github.com/Benjamin144/Include-Me/blob/master/BaseWS3creenshot%202021-02-10%20225635.jpg) **pass**
+-   [W3C Markup ValidatorHTML][Results](https://github.com/Benjamin144/Include-Me/blob/master/add_titleWS3creenshot%202021-02-10%20225635.jpg) **pass**
+-   [W3C Markup ValidatorHTML][Results](https://github.com/Benjamin144/Include-Me/blob/master/editGWC3Screenshot%202021-02-10%20230446.jpg) **pass**
+-   [W3C Markup ValidatorHTML][Results](https://github.com/Benjamin144/Include-Me/blob/master/cssWC3Screenshot%202021-02-10%20232114.jpg) **pass**
+-   [W3C CSS Validator][Results](https://github.com/Benjamin144/Include-Me/blob/master/cssWC3Screenshot%202021-02-10%20232114.jpg) **pass**
 
 
 
