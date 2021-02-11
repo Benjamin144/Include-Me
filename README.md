@@ -98,6 +98,7 @@ At this point the site is under development could be subject to change in appear
 - Indices criteria between mongodb throws errors after hitting the edit button when logged into a profile. - **resolved** - by title.html npt being defined in app.py file
 - Search button missing, unable to use the faciliy whn logged into a profile account - code was commented out to work on - **resolved**
 - unable to run successful validation for Jinja based code functions. **resolved** by using view page source method as current WC3 dosent compile from upload
+- **Unresolved** labels for identifying author, child friendly, publisher, date published nd page count, is under developed
 - **Unresolved** - issues with incrementor throws error in this line of code. {% if titles|length > 0 %} 
 
 
@@ -185,13 +186,11 @@ After numerous testing it is of my opinion that the operations functions well th
 
 ## Further Testing
 
-#Check site UX for navigational completeness - make sure links work - log links in readMe that are in development. 
-#Check site UI - Ensure ease of use (does the site make sense).
-#Check rating with lighthouse (screenshot results and use in readMe)
-#Check responsiveness on all devices
-#Check responsiveness on all web browsers
-#Clear bugs - reference, the Slack community, tutors & online support, i.e console log.
-#Run the code through (W3C) validators 
+
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/Benjamin144/Include-Me/blob/master/add_genreWC3%202021-02-10%20224757.jpg) **pass**
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/Benjamin144/Include-Me/blob/master/cssWC3Screenshot%202021-02-10%20232114.jpg) **pass**
+
+
 
 ## Gitpod set up  
 
@@ -212,25 +211,6 @@ Another blue button should appear to click: *Open Browser*.
 In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
 I have tested my project using Chromes developer tools, and Light House
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
-
-## Template version history used to install, Python, Flask, Py-Mongo 
--Hosted by The Code Institute
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-
-
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/Benjamin144/Include-Me/blob/master/add_genreWC3%202021-02-10%20224757.jpg) **pass**
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/Benjamin144/Include-Me/blob/master/cssWC3Screenshot%202021-02-10%20232114.jpg) **pass**
 
 
 ## lighthouse 
