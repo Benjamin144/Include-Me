@@ -87,7 +87,7 @@ Materialises and Matierial Design is used as the front end display and MongoDB i
 - Simple link based navbar and buttons across a white background, with the blue and footer colour subject to change (tentative).
 - Nav Icons to Social media minimised into a single button as not to distract and navigational button in footer to scroll back to the top of the page. 
 
-## issues, that needed further development 
+#### issues, that needed further development 
 
 - connecting PyMongo authentication. - **resolved** by entering correct credentials and adjustments to line spacing issues.
 - reducing white space around the site. - **resolved** - used background image.
