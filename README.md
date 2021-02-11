@@ -202,12 +202,12 @@ At the time of final testing I was unable to get lighthouse to function but I ha
 - [MobileTesting]   https://github.com/Benjamin144/Include-Me/blob/master/mobileView.jpg
 - [DesktopTesting]  https://github.com/Benjamin144/Include-Me/blob/master/deskTopView.jpg
 
-## Testing Errors - Struggling to get past these...type of error sample below:
+## Testing Errors 
 
-**Fixed**       TemplateNotFound error even though template file exists, there was a formatting issue with the HTML file causing the app decorator to malfunction.
-                I resolved this by acrediting the formating from https://github.com/Code-Institute-Solutions/FlaskFramework/blob/master/01-GettingStarted/03-routing/templates/contact.html
-                which fixed the error. I also tried a code line, app = Flask(__name__, template_folder='template'), as an experiment to test if the app.py could find the html file, but that didn't work.
-                https://stackoverflow.com/questions/23327293/flask-raises-templatenotfound-error-even-though-template-file-exists. **Fixed due to typing error**
+TemplateNotFound error even though template file exists, there was a formatting issue with the HTML file causing the app decorator to malfunction.
+I resolved this by acrediting the formating from https://github.com/Code-Institute-Solutions/FlaskFramework/blob/master/01-GettingStarted/03-routing/templates/contact.html
+which fixed the error. I also tried a code line, app = Flask(__name__, template_folder='template'), as an experiment to test if the app.py could find the html file, but that didn't work.
+https://stackoverflow.com/questions/23327293/flask-raises-templatenotfound-error-even-though-template-file-exists. **Fixed due to typing error**
     
 ### Testing User Stories from User Experience (UX) Section
 
