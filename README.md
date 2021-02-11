@@ -43,7 +43,7 @@ The content structure for displaying some requested criteria from the MongoDB in
 
 ## Demonstration
 
-<h2 class = align-center><img src="https://github.com/Benjamin144/Include-Me/blob/master/Includeme2.pdf"></h2>
+<h2 class = align-center><img src=https://include-me.herokuapp.com/></h2>
 
 ## User Experience (UX) - Intro
 
@@ -161,7 +161,7 @@ Materialises and Matierial Design is used as the front end display and MongoDB i
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 5. [jQuery:](https://jquery.com/)
     - jQuery came with Materialize to make the navbar responsive, calender date picker options, collapsable elements for the book recommendation, Accordian style 'Pop out' functions.
-6. [Git](https://git-scm.com/)
+6. [Git:](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 7. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
