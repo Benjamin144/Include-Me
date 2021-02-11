@@ -214,6 +214,7 @@ I have tested my project using Chromes developer tools, and Light House
 
 
 ## lighthouse 
+At the time of final testing I was unable to get lighthouse to function but I had previously looked at the results at a previous stage and they were all over 88% pass rate.
 
 -   For final testing
 
