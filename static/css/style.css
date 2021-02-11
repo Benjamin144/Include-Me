@@ -15,22 +15,6 @@ html{
   
 }
 
-
-.home {
-    height: 100vh;
-    width: 100vw;
-    background: url('../img/6607.jpg') no-repeat center center fixed; /* <a href="http://www.freepik.com">Designed by pch.vector / Freepik</a>*/
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    z-index: -1;
-}
-
-
 .container {
     padding: 20px;
     width: 100%;
@@ -190,8 +174,7 @@ h2 {
     text-decoration: none !important;
     font-weight: 700 !important;
     font-size: 100%;
-    color: #F7EC36 !important;
-    border-style: 1px solid transparent !important;
+    color: #F7EC36 !important; 
     transition: 0.7s !important;
     -webkit-transition: all .7s ease-in-out !important;
     -moz-transition: all .7s ease-in-out !important;

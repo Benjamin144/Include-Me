@@ -97,19 +97,18 @@ At this point the site is under development could be subject to change in appear
 - responsiveness in mobile devices - search field - **resolved** - with mobile queries work around in style.css, global settings with materialize.min.css fixed scaling issues
 - Indices criteria between mongodb throws errors after hitting the edit button when logged into a profile. - **resolved** - by title.html npt being defined in app.py file
 - Search button missing, unable to use the faciliy whn logged into a profile account - code was commented out to work on - **resolved**
-- **Unresolved** - label for Author, child friendly, date published, number of pages and publisher details missing.
+- unable to run successful validation for Jinja based code functions. **resolved** by using view page source method as current WC3 dosent compile from upload
 - **Unresolved** - issues with incrementor throws error in this line of code. {% if titles|length > 0 %} 
-- **Unresolved** - unable to run successful validation for Jinja based code functions.
-- **unresolved** - links from nav bar to activity pages, require link offset solution.
-- **unresolved** - Screen load times are a bit laboured, I will attempt to resolve this issue with 'Lighthouse' testing
+
+
 
 <p align="right">
   <a href="joseph-roberts-include:me-app---third-milestone-project">Back to Top :arrow_heading_up:</a> 
 </p>
 
-### Existing Features -->
-
-<!--    Include:Me logo (top left) allows the user to switch back to the homepage. 
+### Existing Features
+     
+        Include:Me logo (top left) allows the user to switch back to the homepage. 
         Login - allows the user to enter a username and password and press a login button to view profile below the landing page
         Register - allows the user to enter a username and password below the landing page.
         Animated button - allows the user quick access to the activity pages.
@@ -126,6 +125,8 @@ For some/all of your features, you may choose to reference the specific project 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
+
+- Labels for author, child friendly, date published, number of pages and publisher details missing from accordion dropdown menus.
 - A visual representation of the Book
 - A downloadable sample from partnering website
 - A buy book link to oan external ecommerce website 
@@ -147,29 +148,29 @@ In addition, you may also use this section to discuss plans for additional featu
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 -   [JS](https://en.wikipedia.org/wiki/JavaScript)
 -   [JQ](https://en.wikipedia.org/wiki/jQuery)
--   [Python]
--   [Jinja-Templating]
--   [Flask]
--   [MongoDb]
--   [Heroku]
+-   [Python]{https://en.wikipedia.org/wiki/Python_(programming_language)}
+-   [Jinja-Templating]{https://en.wikipedia.org/wiki/Jinja_(template_engine)}
+-   [Flask]{https://en.wikipedia.org/wiki/Flask_(web_framework)}
+-   [MongoDb](https://en.wikipedia.org/wiki/MongoDB)
+-   [Heroku](https://en.wikipedia.org/wiki/MongoDB)
 
 
 ### Frameworks, Libraries & Programs Used
 
 1. [Materialize CSS:](https://materializecss.com/)
     - Materialize was used to assist with the responsiveness and styling of the website.
-2. [Google Fonts:](https://fonts.google.com/)
+2. [Material Design:](https://mdbootstrap.com/)
+    - MDB Styled button and design usd for button on footer
+3. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'roboto' font into the style.css file which is used on all pages throughout the project.
-3. [Font Awesome:](https://fontawesome.com/)
+4. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-4. [jQuery:](https://jquery.com/)
+5. [jQuery:](https://jquery.com/)
     - jQuery came with Materialize to make the navbar responsive, calender date picker options, collapsable elements for the book recommendation, Accordian style 'Pop out' functions  .
-5. [Git](https://git-scm.com/)
+6. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-6. [GitHub:](https://github.com/)
+7. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-7. [Paint 3D:](https://www.microsoft.com/en-gb/p/paint-3d/9nblggh5fv99)
-    - Paint 3D s a built-in creative application that comes free with Windows 10*.
 8. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes]during the design process.
 
@@ -179,32 +180,10 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Testing - Intro
 
-<!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here. -->
+After numerous testing it is of my opinion that the operations functions well throughout the website, and there are no issues causing errors to stop the website from functioning
 
 
 ## Further Testing
-
 
 #Check site UX for navigational completeness - make sure links work - log links in readMe that are in development. 
 #Check site UI - Ensure ease of use (does the site make sense).
@@ -248,13 +227,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 **April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/) **pass**
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/) **pass**
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/Benjamin144/Include-Me/blob/master/add_genreWC3%202021-02-10%20224757.jpg) **pass**
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/Benjamin144/Include-Me/blob/master/cssWC3Screenshot%202021-02-10%20232114.jpg) **pass**
 
 
 ## lighthouse 
@@ -265,9 +241,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   [About Pages](https://github.com/Benjamin144/include:me/blob/master/About.PNG)
 -   [Map Pages](https://github.com/Benjamin144/include:me/blob/master/Map.PNG)
 -   [Subsribe Pages](https://github.com/Benjamin144/include:me/blob/master/subscribe.PNG)
-
-
-
 
 
 ## Testing Errors - Struggling to get past these...type of error sample below:
@@ -307,6 +280,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs
+- none
 
 
 ## Deployment - Intro
@@ -387,19 +361,19 @@ My collections on the MongoDb are within [myFirstCluster], they are named under 
 
 When I log into my Heroku account this project is named [include-me]. This app is successfully connected to [Python] with mnormal confirmation messages like:
 
-Building on the Heroku-20 stack
-Python app detected
- No change in requirements detected, installing from cache
- Installing pip 20.1.1, setuptools 47.1.1 and wheel 0.34.2
- Installing SQLite3
- Installing requirements with pip
- Discovering process types
-       Procfile declares types -> web
-Compressing...
-       Done: 61.5M
-Launching...
-       Released v24
-       https://include-me.herokuapp.com/ deployed to Heroku
+    Building on the Heroku-20 stack
+    Python app detected
+    No change in requirements detected, installing from cache
+    Installing pip 20.1.1, setuptools 47.1.1 and wheel 0.34.2
+    Installing SQLite3
+    Installing requirements with pip
+    Discovering process types
+    Procfile declares types -> web
+    Compressing...
+    Done: 61.5M
+    Launching...
+    Released v24
+    https://include-me.herokuapp.com/ deployed to Heroku
 
 My account is also connected to [https://github.com/Benjamin144/Include-Me] my Github page. When I navigate the the 'open app' buton in Heroku, the app loads normally without any problems.
 
@@ -415,18 +389,16 @@ My account is also connected to [https://github.com/Benjamin144/Include-Me] my G
 
 -   [WebCifar] https://www.youtube.com/watch?v=LY1jeQGUiAICSS - Scroll Down Animated Button | Scroll More Button
 
-
-### Content - Intro
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
  
 ### Media
 
--   [FreePik.com] Landing page image - <a href="http://www.freepik.com">Designed by pch.vector / Freepik</a>
+-   [FreePik.com] Landing page image - <a href="http://www.freepik.com">Designed by pch.vector / Freepik</a> **removed**
 
 
 ### Acknowledgements
 
 -   I received inspiration for this project from The Code Institutes, Project Idea (3) - https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+DCP101+2017_T3/courseware/5a170081aab6478d881d96db05038a28/698b06ef0bd34c9fa300958e72747941/?child=first
+    The concept of having the website perform in such a way was a result of seeing book readers deep interest in this lifestyle.
 
 -   My Mentor Dick Vlaanderen for continuous helpful feedback.
 

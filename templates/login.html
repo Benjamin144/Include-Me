@@ -1,59 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Include Me</title>
 </head>
+
 <body>
-    
+
 </body>
+
 </html>
 <!-- Attributed code creation and style to Tim Nelson (Code Institute Devs however code has been rewritten by myself to refect the unique database management and functionality for this site-->
 <!-- https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+DCP101+2017_T3/courseware/196c000dd670458cafc7b2dc9d4a8245/016a25dab553425ba26288263c0c3a6e/?child=first-->
 {% extends "base.html" %}
 {% block content %}
 
-    <h3 class="center-align">Log In</h3>
+<h3 class="center-align">Log In</h3>
 
-    <div class="row">
-        <form class="col s12 m8 offset-m2" method="POST" action="{{ url_for('login') }}">
-            <div class="card-panel">
-                <!-- usernames -->
-                <div class="row">
-					<div class="input-field col s12">
-						<i class="fas fa-user-cog prefix light-blue-text text-darken-4"></i>
-						<input id="username" name="username" type="text" minlength="5"
-                            maxlength="15" pattern="^[a-zA-Z0-9]{5,15}$" class="validate" required>
-						<label for="username">Username</label>
-					</div>
-                </div>
-                <!-- passowrds -->
-                <div class="row">
-                    <div class="input-field col s12">
-						<i class="fas fa-user-lock prefix light-blue-text text-darken-4"></i>
-                        <input id="password" name="password" type="password" minlength="5"
-                            maxlength="15" pattern="^[a-zA-Z0-9]{5,15}$" class="validate" required>
-                        <label for="password">Password</label>
-                    </div>
-                </div>
-                <!-- logins -->
-                <div class="row">
-                    <button type="submit" class="col s12 btn-large light-blue darken-4 text-shadow">
-                        Log In <i class="fas fa-sign-in-alt"></i>
-                    </button>
+<div class="row">
+    <form class="col s12 m8 offset-m2" method="POST" action="{{ url_for('login') }}">
+        <div class="card-panel">
+            <!-- usernames -->
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="fas fa-user-cog prefix light-blue-text text-darken-4"></i>
+                    <input id="username" name="username" type="text" minlength="5" maxlength="15"
+                        pattern="^[a-zA-Z0-9]{5,15}$" class="validate" required>
+                    <label for="username">Username</label>
                 </div>
             </div>
-        </form>
-    </div>
-
-    <div class="row">
-        <div class="col s12">
-            <p class="center-align">
-                New Here?
-                <a href="{{ url_for('register') }}" class="light-blue-text text-darken-4">Register Account</a>
-            </p>
+            <!-- passowrds -->
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="fas fa-user-lock prefix light-blue-text text-darken-4"></i>
+                    <input id="password" name="password" type="password" minlength="5" maxlength="15"
+                        pattern="^[a-zA-Z0-9]{5,15}$" class="validate" required>
+                    <label for="password">Password</label>
+                </div>
+            </div>
+            <!-- logins -->
+            <div class="row">
+                <button type="submit" class="col s12 btn-large light-blue darken-4 text-shadow">
+                    Log In <i class="fas fa-sign-in-alt"></i>
+                </button>
+            </div>
         </div>
+    </form>
+</div>
+
+<div class="row">
+    <div class="col s12">
+        <p class="center-align">
+            New Here?
+            <a href="{{ url_for('register') }}" class="light-blue-text text-darken-4">Register Account</a>
+        </p>
     </div>
+</div>
 
 {% endblock %}
