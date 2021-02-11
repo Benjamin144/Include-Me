@@ -45,7 +45,7 @@ Edit function broken
 
 ## Demo
 
-<h2 align="center"><img src="https://github.com/Benjamin144/Include-Me/blob/master/Blobs/IncludeMe.pdf"></h2>
+<h2 align="center"><img src="https://github.com/Benjamin144/Include-Me/blob/master/Includeme2.pdf"></h2>
 
 ## User Experience (UX) - Intro
 
@@ -215,6 +215,8 @@ I have tested my project using Chromes developer tools, and Light House
 
 ## lighthouse 
 At the time of final testing I was unable to get lighthouse to function but I had previously looked at the results at a previous stage and they were all over 88% pass rate.
+- [MobileTesting]   https://github.com/Benjamin144/Include-Me/blob/master/mobileView.jpg
+- [DesktopTesting]  https://github.com/Benjamin144/Include-Me/blob/master/deskTopView.jpg
 
 -   For final testing
 
